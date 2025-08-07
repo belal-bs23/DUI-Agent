@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt eye colors data",
+  "columns": [
+    "EyeColorId",
+    "EyeColorDesc",
+    "NcicCode",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "EyeColorId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "EyeColorDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "NcicCode",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 8,
+  "has_data": true,
+  "column_count": 4
+}

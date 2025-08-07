@@ -1,0 +1,284 @@
+{
+  "type": "simple",
+  "description": "Secure access to fstsupplementhandcoordination data",
+  "columns": [
+    "SupplementHandCoordinationId",
+    "SupplementId",
+    "TestGiven",
+    "ReasonNotGiven",
+    "StoppedTest",
+    "StatedHandCoordination",
+    "UnableToFollow",
+    "UnableToFollowDesc",
+    "StartWrongTime",
+    "StartWrongTimeDesc",
+    "ForwardImproperCount",
+    "ForwardImproperCountDesc",
+    "ForwardImproperTouch",
+    "ForwardImproperTouchDesc",
+    "ForwardNotPerform",
+    "ForwardNotPerformDesc",
+    "ClappingImproperCount",
+    "ClappingImproperCountDesc",
+    "ClappingImproperTouch",
+    "ClappingImproperTouchDesc",
+    "ClappingImproperReturn",
+    "ClappingImproperReturnDesc",
+    "ClappingNotPerform",
+    "ClappingNotPerformDesc",
+    "ReturnImproperCount",
+    "ReturnImproperCountDesc",
+    "ReturnImproperTouch",
+    "ReturnImproperTouchDesc",
+    "NotReturnToChest",
+    "NotReturnToChestDesc",
+    "ReturnNotPerform",
+    "ReturnNotPerformDesc",
+    "ImproperPosition",
+    "ImproperPositionDesc",
+    "EndPositionNotPerform",
+    "EndPositionNotPerformDesc",
+    "TotalClues",
+    "Comments",
+    "OldHandCoordinationId"
+  ],
+  "column_info": [
+    {
+      "name": "SupplementHandCoordinationId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SupplementId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "TestGiven",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ReasonNotGiven",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "StoppedTest",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StatedHandCoordination",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "UnableToFollow",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "UnableToFollowDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "StartWrongTime",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StartWrongTimeDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "ForwardImproperCount",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ForwardImproperCountDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "ForwardImproperTouch",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ForwardImproperTouchDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "ForwardNotPerform",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ForwardNotPerformDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "ClappingImproperCount",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ClappingImproperCountDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "ClappingImproperTouch",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ClappingImproperTouchDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "ClappingImproperReturn",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ClappingImproperReturnDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "ClappingNotPerform",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ClappingNotPerformDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "ReturnImproperCount",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ReturnImproperCountDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "ReturnImproperTouch",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ReturnImproperTouchDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "NotReturnToChest",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "NotReturnToChestDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "ReturnNotPerform",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ReturnNotPerformDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "ImproperPosition",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ImproperPositionDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "EndPositionNotPerform",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EndPositionNotPerformDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "TotalClues",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Comments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OldHandCoordinationId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 21,
+  "has_data": true,
+  "column_count": 39
+}

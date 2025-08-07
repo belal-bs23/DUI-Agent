@@ -1,0 +1,32 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt wind speed data",
+  "columns": [
+    "WindSpeedId",
+    "WindSpeedDesc",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "WindSpeedId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "WindSpeedDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 4,
+  "has_data": true,
+  "column_count": 3
+}

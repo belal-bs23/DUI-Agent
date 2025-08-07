@@ -1,0 +1,53 @@
+{
+  "type": "simple",
+  "description": "Secure access to caseaddenda data",
+  "columns": [
+    "CaseAddendumId",
+    "CaseId",
+    "OfficerDepartment",
+    "OfficerName",
+    "Addendum",
+    "OldCaseADDendumId"
+  ],
+  "column_info": [
+    {
+      "name": "CaseAddendumId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerDepartment",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "OfficerName",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Addendum",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "OldCaseADDendumId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 0,
+  "has_data": false,
+  "column_count": 6
+}

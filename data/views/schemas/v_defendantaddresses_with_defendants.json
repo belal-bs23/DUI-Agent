@@ -1,0 +1,347 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing defendantaddresses with defendants with related data",
+  "columns": [
+    "DefendantId",
+    "StateId",
+    "CountyId",
+    "Lat",
+    "Lng",
+    "DefOccupation",
+    "DefPlaceEmployment",
+    "ContactName",
+    "EmStateId",
+    "OccStateId",
+    "Relationship",
+    "OccLat",
+    "OccLng",
+    "EmLat",
+    "EmLng",
+    "Defendants_DefendantId",
+    "Defendants_CaseId",
+    "Defendants_LastName",
+    "Defendants_FirstName",
+    "Defendants_RaceId",
+    "Defendants_GenderId",
+    "Defendants_HeightIn",
+    "Defendants_HeightFt",
+    "Defendants_HairColorId",
+    "Defendants_EyeColorId",
+    "Defendants_Weight",
+    "Defendants_SkinId",
+    "Defendants_SkinComplexionSkinId",
+    "Defendants_Tattoos",
+    "Defendants_Alias",
+    "Defendants_Occupation",
+    "Defendants_PlaceEmployment",
+    "Defendants_MotherMaiden",
+    "Defendants_Citizen",
+    "Defendants_EducationId",
+    "Defendants_SpecialNeeds",
+    "Defendants_Condition",
+    "Defendants_SafetyBelt",
+    "Defendants_Helmet",
+    "Defendants_DpsSid",
+    "Defendants_StepFunded",
+    "Defendants_Training",
+    "Defendants_ActivityType",
+    "Defendants_OfficerStepShiftId",
+    "Defendants_StepZoneId",
+    "Defendants_ZoneId",
+    "Defendants_StepGrantTypeId",
+    "Defendants_OldCaseID"
+  ],
+  "column_info": [
+    {
+      "name": "DefendantId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "StateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CountyId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Lat",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Lng",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "DefOccupation",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "DefPlaceEmployment",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "ContactName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "EmStateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OccStateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Relationship",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "OccLat",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "OccLng",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "EmLat",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "EmLng",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Defendants_DefendantId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_CaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_LastName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Defendants_FirstName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 30
+    },
+    {
+      "name": "Defendants_RaceId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_GenderId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_HeightIn",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_HeightFt",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_HairColorId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_EyeColorId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_Weight",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_SkinId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_SkinComplexionSkinId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_Tattoos",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "Defendants_Alias",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Defendants_Occupation",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Defendants_PlaceEmployment",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Defendants_MotherMaiden",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Defendants_Citizen",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_EducationId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_SpecialNeeds",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Defendants_Condition",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "Defendants_SafetyBelt",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_Helmet",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_DpsSid",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 30
+    },
+    {
+      "name": "Defendants_StepFunded",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_Training",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_ActivityType",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "Defendants_OfficerStepShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_StepZoneId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_ZoneId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_StepGrantTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Defendants_OldCaseID",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 390,
+  "has_data": true,
+  "column_count": 48
+}

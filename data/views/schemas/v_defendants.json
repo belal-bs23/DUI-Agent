@@ -1,0 +1,242 @@
+{
+  "type": "simple",
+  "description": "Secure access to defendants data",
+  "columns": [
+    "DefendantId",
+    "CaseId",
+    "LastName",
+    "FirstName",
+    "RaceId",
+    "GenderId",
+    "HeightIn",
+    "HeightFt",
+    "HairColorId",
+    "EyeColorId",
+    "Weight",
+    "SkinId",
+    "SkinComplexionSkinId",
+    "Tattoos",
+    "Alias",
+    "Occupation",
+    "PlaceEmployment",
+    "MotherMaiden",
+    "Citizen",
+    "EducationId",
+    "SpecialNeeds",
+    "Condition",
+    "SafetyBelt",
+    "Helmet",
+    "DpsSid",
+    "StepFunded",
+    "Training",
+    "ActivityType",
+    "OfficerStepShiftId",
+    "StepZoneId",
+    "ZoneId",
+    "StepGrantTypeId",
+    "OldCaseID"
+  ],
+  "column_info": [
+    {
+      "name": "DefendantId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "LastName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 50
+    },
+    {
+      "name": "FirstName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 30
+    },
+    {
+      "name": "RaceId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "GenderId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "HeightIn",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "HeightFt",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "HairColorId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EyeColorId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Weight",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SkinId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SkinComplexionSkinId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Tattoos",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "Alias",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Occupation",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "PlaceEmployment",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "MotherMaiden",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Citizen",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EducationId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecialNeeds",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Condition",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "SafetyBelt",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Helmet",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DpsSid",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 30
+    },
+    {
+      "name": "StepFunded",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Training",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ActivityType",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "OfficerStepShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepZoneId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ZoneId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepGrantTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldCaseID",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 528,
+  "has_data": true,
+  "column_count": 33
+}

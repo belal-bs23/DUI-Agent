@@ -1,0 +1,214 @@
+{
+  "type": "simple",
+  "description": "Secure access to casevehicles data",
+  "columns": [
+    "CaseVehicleId",
+    "CaseId",
+    "VehicleTypeId",
+    "VehicleMakeId",
+    "VehicleModelId",
+    "VehicleStyleId",
+    "VehicleColorId",
+    "Year",
+    "StateId",
+    "VIN",
+    "Impounded",
+    "ImpoundedBy",
+    "StoredAt",
+    "VehiclePlacedOnHold",
+    "HoldReason",
+    "VehicleWatercraftId",
+    "VehicleWatercraftOwnerId",
+    "VehicleCommercial",
+    "VehicleHazMat",
+    "VehicleCondition",
+    "BoatHullShapeId",
+    "VehicleBwiMotorYear",
+    "VehicleBwiMotorHorsepower",
+    "VehicleBwiMotorManufacturer",
+    "VehicleBwiMotorSerial",
+    "VehicleBwiTrailerManufacturer",
+    "VehicleBwiTrailerRegistraitonNum",
+    "VehicleModeId",
+    "OldCaseId"
+  ],
+  "column_info": [
+    {
+      "name": "CaseVehicleId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "VehicleTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VehicleMakeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VehicleModelId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VehicleStyleId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VehicleColorId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Year",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 4
+    },
+    {
+      "name": "StateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VIN",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Impounded",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ImpoundedBy",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "StoredAt",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "VehiclePlacedOnHold",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "HoldReason",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "VehicleWatercraftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VehicleWatercraftOwnerId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VehicleCommercial",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VehicleHazMat",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VehicleCondition",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "BoatHullShapeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VehicleBwiMotorYear",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VehicleBwiMotorHorsepower",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VehicleBwiMotorManufacturer",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "VehicleBwiMotorSerial",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "VehicleBwiTrailerManufacturer",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "VehicleBwiTrailerRegistraitonNum",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "VehicleModeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldCaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 260,
+  "has_data": true,
+  "column_count": 29
+}

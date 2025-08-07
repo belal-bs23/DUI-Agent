@@ -1,0 +1,32 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt bwi vessels data",
+  "columns": [
+    "BwiVesselId",
+    "BwiVesselDesc",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "BwiVesselId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "BwiVesselDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 15,
+  "has_data": true,
+  "column_count": 3
+}

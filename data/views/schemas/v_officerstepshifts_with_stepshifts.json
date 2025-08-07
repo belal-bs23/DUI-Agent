@@ -1,0 +1,207 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing officerstepshifts with stepshifts with related data",
+  "columns": [
+    "StepOfficerShiftId",
+    "OfficerId",
+    "DepartmentId",
+    "ShiftStart",
+    "ShiftEnd",
+    "TotalHRSWorked",
+    "MileageStart",
+    "MileageEnd",
+    "MileageTotal",
+    "Comments",
+    "StepShiftId",
+    "StepGrantTypeId",
+    "Submitted",
+    "Approved",
+    "ApprovedBy",
+    "Rejected",
+    "RejectedBy",
+    "CreatedBy",
+    "Report",
+    "OldOfficerStepShiftId",
+    "StepShifts_StepShiftId",
+    "StepShifts_DepartmentId",
+    "StepShifts_LocationId",
+    "StepShifts_StepGrantTypeId",
+    "StepShifts_ShiftStart",
+    "StepShifts_ShiftEnd",
+    "StepShifts_CreatedBy",
+    "StepShifts_OldStepShiftId"
+  ],
+  "column_info": [
+    {
+      "name": "StepOfficerShiftId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OfficerId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DepartmentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ShiftStart",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ShiftEnd",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TotalHRSWorked",
+      "type": "decimal",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MileageStart",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MileageEnd",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MileageTotal",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Comments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "StepShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepGrantTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Submitted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Approved",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ApprovedBy",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Rejected",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "RejectedBy",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CreatedBy",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Report",
+      "type": "varbinary",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "OldOfficerStepShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepShifts_StepShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepShifts_DepartmentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepShifts_LocationId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepShifts_StepGrantTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepShifts_ShiftStart",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepShifts_ShiftEnd",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepShifts_CreatedBy",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "StepShifts_OldStepShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 43,
+  "has_data": true,
+  "column_count": 28
+}

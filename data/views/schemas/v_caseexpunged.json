@@ -1,0 +1,60 @@
+{
+  "type": "simple",
+  "description": "Secure access to caseexpunged data",
+  "columns": [
+    "ExpungeId",
+    "CaseId",
+    "OrganizationId",
+    "LocationId",
+    "OfficerId",
+    "Reason",
+    "OldCaseExpungedId"
+  ],
+  "column_info": [
+    {
+      "name": "ExpungeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OrganizationId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "LocationId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OfficerId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Reason",
+      "type": "varchar",
+      "nullable": false,
+      "max_length": 1000
+    },
+    {
+      "name": "OldCaseExpungedId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 1,
+  "has_data": true,
+  "column_count": 7
+}

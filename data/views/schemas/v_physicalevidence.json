@@ -1,0 +1,81 @@
+{
+  "type": "simple",
+  "description": "Secure access to physicalevidence data",
+  "columns": [
+    "PhysicalEvidenceId",
+    "CaseId",
+    "DispatchRecordingInclude",
+    "ExplainDispatchRecording",
+    "OtherPhysicalEvidence",
+    "HasVideoTape",
+    "NoTapeExplain",
+    "EvEvidenceDisposition",
+    "Ev911TapeDisposition",
+    "OldCaseID"
+  ],
+  "column_info": [
+    {
+      "name": "PhysicalEvidenceId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DispatchRecordingInclude",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ExplainDispatchRecording",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OtherPhysicalEvidence",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "HasVideoTape",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "NoTapeExplain",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "EvEvidenceDisposition",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "Ev911TapeDisposition",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OldCaseID",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 140,
+  "has_data": true,
+  "column_count": 10
+}

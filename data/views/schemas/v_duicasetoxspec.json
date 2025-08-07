@@ -1,0 +1,81 @@
+{
+  "type": "simple",
+  "description": "Secure access to duicasetoxspec data",
+  "columns": [
+    "DuiCaseToxSpecId",
+    "CaseToxId",
+    "ToxSpecTypeId",
+    "BacResult",
+    "HospSerResult",
+    "WholeBloodResult",
+    "Active",
+    "DtCreated",
+    "NoAlcohol",
+    "OldCaseToxSpecId"
+  ],
+  "column_info": [
+    {
+      "name": "DuiCaseToxSpecId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseToxId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ToxSpecTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BacResult",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "HospSerResult",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 255
+    },
+    {
+      "name": "WholeBloodResult",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 255
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DtCreated",
+      "type": "datetime",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "NoAlcohol",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldCaseToxSpecId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 47,
+  "has_data": true,
+  "column_count": 10
+}

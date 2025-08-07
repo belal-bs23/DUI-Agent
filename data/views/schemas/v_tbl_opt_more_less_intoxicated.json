@@ -1,0 +1,25 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt more less intoxicated data",
+  "columns": [
+    "MoreLessIntoxId",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "MoreLessIntoxId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 5,
+  "has_data": true,
+  "column_count": 2
+}

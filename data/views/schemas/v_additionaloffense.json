@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to additionaloffense data",
+  "columns": [
+    "AdditionalOffenseId",
+    "CaseOffenseId",
+    "AdditionalOffenseDesc",
+    "OldAdditionalOffenseId"
+  ],
+  "column_info": [
+    {
+      "name": "AdditionalOffenseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AdditionalOffenseDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "OldAdditionalOffenseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 76,
+  "has_data": true,
+  "column_count": 4
+}

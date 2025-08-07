@@ -1,0 +1,67 @@
+{
+  "type": "simple",
+  "description": "Secure access to stepshifts data",
+  "columns": [
+    "StepShiftId",
+    "DepartmentId",
+    "LocationId",
+    "StepGrantTypeId",
+    "ShiftStart",
+    "ShiftEnd",
+    "CreatedBy",
+    "OldStepShiftId"
+  ],
+  "column_info": [
+    {
+      "name": "StepShiftId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DepartmentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "LocationId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepGrantTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ShiftStart",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ShiftEnd",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CreatedBy",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "OldStepShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 16,
+  "has_data": true,
+  "column_count": 8
+}

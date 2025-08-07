@@ -1,0 +1,172 @@
+{
+  "type": "simple",
+  "description": "Secure access to casevehiclepassengers data",
+  "columns": [
+    "CaseVehiclePassengerId",
+    "CaseVehicleId",
+    "LastName",
+    "FirstName",
+    "MothersMaidenName",
+    "RaceId",
+    "GenderId",
+    "CPSNotified",
+    "CPSNotifiedBy",
+    "CPSNotExplanation",
+    "ID",
+    "Intoxicated",
+    "Arrested",
+    "Charge",
+    "WearSafetyBelt",
+    "WearHelmet",
+    "WhereSeated",
+    "Comments",
+    "StateId",
+    "CountyId",
+    "Lat",
+    "Lng",
+    "CountyName"
+  ],
+  "column_info": [
+    {
+      "name": "CaseVehiclePassengerId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicleId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "LastName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 50
+    },
+    {
+      "name": "FirstName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 30
+    },
+    {
+      "name": "MothersMaidenName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "RaceId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "GenderId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CPSNotified",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CPSNotifiedBy",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "CPSNotExplanation",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "ID",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 20
+    },
+    {
+      "name": "Intoxicated",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Arrested",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Charge",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "WearSafetyBelt",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WearHelmet",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WhereSeated",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "Comments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "StateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CountyId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Lat",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Lng",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "CountyName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 150
+    }
+  ],
+  "row_count": 95,
+  "has_data": true,
+  "column_count": 23
+}

@@ -1,0 +1,375 @@
+{
+  "type": "simple",
+  "description": "Secure access to fstfingertonosetest data",
+  "columns": [
+    "FingerToNoseId",
+    "CaseId",
+    "TestGiven",
+    "ReasonNotGiven",
+    "StoppedTest",
+    "StatedFingerToNose",
+    "UnableToFollow",
+    "UnableToFollowDesc",
+    "StartWrongTime",
+    "StartWrongTimeDesc",
+    "NotCloseEyes",
+    "NotCloseEyesDesc",
+    "NotTiltHead",
+    "NotTiltHeadDesc",
+    "OpenEyes",
+    "OpenEyesDesc",
+    "MovedHead",
+    "MovedHeadDesc",
+    "WrongHandRight1",
+    "WrongHandRight2",
+    "WrongHandRight3",
+    "WrongFingerLeft1",
+    "WrongFingerRight1",
+    "WrongFingerLeft2",
+    "WrongFingerRight2",
+    "WrongFingerLeft3",
+    "WrongFingerRight3",
+    "HesitatedRight1",
+    "HesitatedRight2",
+    "HesitatedRight3",
+    "SearchedRight1",
+    "SearchedRight2",
+    "SearchedRight3",
+    "FingerTipLeft1",
+    "FingerTipRight1",
+    "FingerTipLeft2",
+    "FingerTipRight2",
+    "FingerTipLeft3",
+    "FingerTipRight3",
+    "MissedNoseLeft1",
+    "MissedNoseRight1",
+    "MissedNoseLeft2",
+    "MissedNoseRight2",
+    "MissedNoseLeft3",
+    "MissedNoseRight3",
+    "BringDownLeft1",
+    "BringDownRight1",
+    "BringDownLeft2",
+    "BringDownRight2",
+    "BringDownLeft3",
+    "BringDownRight3",
+    "Comments"
+  ],
+  "column_info": [
+    {
+      "name": "FingerToNoseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "TestGiven",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ReasonNotGiven",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "StoppedTest",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StatedFingerToNose",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "UnableToFollow",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "UnableToFollowDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "StartWrongTime",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StartWrongTimeDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "NotCloseEyes",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "NotCloseEyesDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "NotTiltHead",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "NotTiltHeadDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OpenEyes",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OpenEyesDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "MovedHead",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MovedHeadDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "WrongHandRight1",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WrongHandRight2",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WrongHandRight3",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WrongFingerLeft1",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WrongFingerRight1",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WrongFingerLeft2",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WrongFingerRight2",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WrongFingerLeft3",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WrongFingerRight3",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "HesitatedRight1",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "HesitatedRight2",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "HesitatedRight3",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SearchedRight1",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SearchedRight2",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SearchedRight3",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FingerTipLeft1",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FingerTipRight1",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FingerTipLeft2",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FingerTipRight2",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FingerTipLeft3",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FingerTipRight3",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MissedNoseLeft1",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MissedNoseRight1",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MissedNoseLeft2",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MissedNoseRight2",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MissedNoseLeft3",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MissedNoseRight3",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BringDownLeft1",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BringDownRight1",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BringDownLeft2",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BringDownRight2",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BringDownLeft3",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BringDownRight3",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Comments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    }
+  ],
+  "row_count": 86,
+  "has_data": true,
+  "column_count": 52
+}

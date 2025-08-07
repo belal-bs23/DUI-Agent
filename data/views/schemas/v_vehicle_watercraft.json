@@ -1,0 +1,67 @@
+{
+  "type": "simple",
+  "description": "Secure access to vehicle watercraft data",
+  "columns": [
+    "VehicleWatercraftId",
+    "HIN",
+    "MotorId",
+    "VesselId",
+    "VesselComments",
+    "BoatCondition",
+    "Less50HP",
+    "VehicleId"
+  ],
+  "column_info": [
+    {
+      "name": "VehicleWatercraftId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "HIN",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "MotorId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VesselId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VesselComments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "BoatCondition",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "Less50HP",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VehicleId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 29,
+  "has_data": true,
+  "column_count": 8
+}

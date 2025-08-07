@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt interview questions data",
+  "columns": [
+    "QuestionId",
+    "Question",
+    "QuestionOrder",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "QuestionId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Question",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 2000
+    },
+    {
+      "name": "QuestionOrder",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 41,
+  "has_data": true,
+  "column_count": 4
+}

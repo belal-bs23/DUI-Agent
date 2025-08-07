@@ -1,0 +1,32 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt specimensubmittedmethod data",
+  "columns": [
+    "SpecimenSubmittedMethodId",
+    "Method",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "SpecimenSubmittedMethodId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Method",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 3,
+  "has_data": true,
+  "column_count": 3
+}

@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt ncic vehicle body style data",
+  "columns": [
+    "BodyStyleId",
+    "TransportTypeId",
+    "NcicCode",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "BodyStyleId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "TransportTypeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "NcicCode",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 25,
+  "has_data": true,
+  "column_count": 4
+}

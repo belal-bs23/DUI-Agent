@@ -1,0 +1,165 @@
+{
+  "type": "simple",
+  "description": "Secure access to evidencerecordings data",
+  "columns": [
+    "EvidenceRecordingId",
+    "PhysicalEvidenceId",
+    "TimeBegan",
+    "TimeStop",
+    "OnBoatRecording",
+    "OnShoreRecording",
+    "OnBodyCameraRecording",
+    "IntoxicationInvestigation",
+    "FST",
+    "TransportToJail",
+    "OtherActions",
+    "NameOfOfficer",
+    "HasVideoTape",
+    "NoTapeExplain",
+    "EvVideoMade",
+    "EvVideoHgn",
+    "EvVideoWalkTurn",
+    "EvVideoLegStand",
+    "EvVideoDisposition",
+    "EvVideoCar",
+    "EvVideoStation",
+    "EvVideoOtherMade"
+  ],
+  "column_info": [
+    {
+      "name": "EvidenceRecordingId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "PhysicalEvidenceId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "TimeBegan",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TimeStop",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OnBoatRecording",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OnShoreRecording",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OnBodyCameraRecording",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "IntoxicationInvestigation",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FST",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TransportToJail",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OtherActions",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 250
+    },
+    {
+      "name": "NameOfOfficer",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "HasVideoTape",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "NoTapeExplain",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "EvVideoMade",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoHgn",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoWalkTurn",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoLegStand",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoDisposition",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "EvVideoCar",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoStation",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoOtherMade",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 57,
+  "has_data": true,
+  "column_count": 22
+}

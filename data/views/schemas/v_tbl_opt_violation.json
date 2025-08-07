@@ -1,0 +1,67 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt violation data",
+  "columns": [
+    "ViolationId",
+    "ViolationDeswc",
+    "Active",
+    "SortOrder",
+    "IsArrest",
+    "IsOther",
+    "IsCitation",
+    "IsWarning"
+  ],
+  "column_info": [
+    {
+      "name": "ViolationId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ViolationDeswc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SortOrder",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "IsArrest",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "IsOther",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "IsCitation",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "IsWarning",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 15,
+  "has_data": true,
+  "column_count": 8
+}

@@ -1,0 +1,46 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt ncic labels data",
+  "columns": [
+    "NcicLabelId",
+    "TransportModeId",
+    "TableName",
+    "NcicCode",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "NcicLabelId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "TransportModeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "TableName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "NcicCode",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 11,
+  "has_data": true,
+  "column_count": 5
+}

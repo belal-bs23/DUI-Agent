@@ -1,0 +1,95 @@
+{
+  "type": "simple",
+  "description": "Secure access to documents data",
+  "columns": [
+    "DocumentId",
+    "DocumentTypeId",
+    "FileTypeId",
+    "DocumentName",
+    "OriginalFileName",
+    "PhysicalFileName",
+    "Active",
+    "Created",
+    "CreatedBy",
+    "ObjectId",
+    "ObjectTypeId",
+    "OldDocumentId"
+  ],
+  "column_info": [
+    {
+      "name": "DocumentId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DocumentTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FileTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DocumentName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": -1
+    },
+    {
+      "name": "OriginalFileName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 255
+    },
+    {
+      "name": "PhysicalFileName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 255
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Created",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 450
+    },
+    {
+      "name": "ObjectId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ObjectTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldDocumentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 638,
+  "has_data": true,
+  "column_count": 12
+}

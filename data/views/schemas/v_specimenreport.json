@@ -1,0 +1,263 @@
+{
+  "type": "analytical",
+  "description": "Secure access to specimenreport data",
+  "columns": [
+    "SpecimenReportId",
+    "CaseId",
+    "Dic24ReadBy",
+    "Dic24Time",
+    "Dic24ReadEnglish",
+    "Dic24ReadSpanish",
+    "Dic24RecordingUsed",
+    "Breath",
+    "BreathProvided",
+    "BreathRefused",
+    "Blood",
+    "BloodProvided",
+    "BloodRefused",
+    "BloodSpecimenTaken",
+    "Urine",
+    "UrineProvided",
+    "UrineRefused",
+    "ProvidedNone",
+    "LabBACResult",
+    "AlcoholDetected",
+    "SearchWarrantSought",
+    "TimePresentedToMagistrate",
+    "SearchWarrantMagistrateName",
+    "SearchWarrantCourt",
+    "WarrantIssuedByMagistrate",
+    "MagistrateWarrantTime",
+    "HandedDic25",
+    "SubjectUnderstood",
+    "ProvidedOther",
+    "Refused",
+    "SpecimenStorageOther",
+    "SpecimenStorageId",
+    "SpecimenSubmittedMethodId",
+    "OldCaseId",
+    "ArchiveProvidedNone",
+    "PBTUsed"
+  ],
+  "column_info": [
+    {
+      "name": "SpecimenReportId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Dic24ReadBy",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Dic24Time",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Dic24ReadEnglish",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Dic24ReadSpanish",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Dic24RecordingUsed",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Breath",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BreathProvided",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BreathRefused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Blood",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BloodProvided",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BloodRefused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BloodSpecimenTaken",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Urine",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "UrineProvided",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "UrineRefused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ProvidedNone",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "LabBACResult",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "AlcoholDetected",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SearchWarrantSought",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TimePresentedToMagistrate",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SearchWarrantMagistrateName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "SearchWarrantCourt",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "WarrantIssuedByMagistrate",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MagistrateWarrantTime",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "HandedDic25",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 5
+    },
+    {
+      "name": "SubjectUnderstood",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ProvidedOther",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Refused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenStorageOther",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "SpecimenStorageId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenSubmittedMethodId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldCaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArchiveProvidedNone",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PBTUsed",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 223,
+  "has_data": true,
+  "column_count": 36
+}

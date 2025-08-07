@@ -1,0 +1,130 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing systemmodecontrols with systempages with related data",
+  "columns": [
+    "SystemModeControlId",
+    "ModeId",
+    "PageId",
+    "ControlName",
+    "Label",
+    "Visible",
+    "Required",
+    "Enabled",
+    "Active",
+    "Created",
+    "OldSystemModeControlId",
+    "SystemPages_SystemPageId",
+    "SystemPages_Title",
+    "SystemPages_PageName",
+    "SystemPages_Active",
+    "SystemPages_Created",
+    "SystemPages_OldSystemPageId"
+  ],
+  "column_info": [
+    {
+      "name": "SystemModeControlId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ModeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PageId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ControlName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 50
+    },
+    {
+      "name": "Label",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 300
+    },
+    {
+      "name": "Visible",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Required",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Enabled",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Created",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldSystemModeControlId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SystemPages_SystemPageId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SystemPages_Title",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 200
+    },
+    {
+      "name": "SystemPages_PageName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 200
+    },
+    {
+      "name": "SystemPages_Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SystemPages_Created",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SystemPages_OldSystemPageId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 383,
+  "has_data": true,
+  "column_count": 17
+}

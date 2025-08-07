@@ -1,0 +1,53 @@
+{
+  "type": "simple",
+  "description": "Secure access to conditionreasonforstop data",
+  "columns": [
+    "ConditionReasonForStopId",
+    "ConditionId",
+    "ReasonForStopId",
+    "ReasonForStopText",
+    "Checked",
+    "OldCaseReasonForStopId"
+  ],
+  "column_info": [
+    {
+      "name": "ConditionReasonForStopId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ConditionId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ReasonForStopId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ReasonForStopText",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "Checked",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OldCaseReasonForStopId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 1555,
+  "has_data": true,
+  "column_count": 6
+}

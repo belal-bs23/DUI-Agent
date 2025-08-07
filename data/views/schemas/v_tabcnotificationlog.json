@@ -1,0 +1,53 @@
+{
+  "type": "simple",
+  "description": "Secure access to tabcnotificationlog data",
+  "columns": [
+    "TABCNotificationLogId",
+    "CaseId",
+    "BodyContents",
+    "SendSuccess",
+    "MarkedAsSent",
+    "Test"
+  ],
+  "column_info": [
+    {
+      "name": "TABCNotificationLogId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "BodyContents",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "SendSuccess",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MarkedAsSent",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Test",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 20,
+  "has_data": true,
+  "column_count": 6
+}

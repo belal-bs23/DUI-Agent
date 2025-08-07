@@ -1,0 +1,60 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt reason for stop data",
+  "columns": [
+    "ReasonForStopId",
+    "ReasonForStopTxt",
+    "Active",
+    "AssocControl",
+    "IsCrash",
+    "Dwi",
+    "Bwi"
+  ],
+  "column_info": [
+    {
+      "name": "ReasonForStopId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ReasonForStopTxt",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "AssocControl",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "IsCrash",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Dwi",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Bwi",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 40,
+  "has_data": true,
+  "column_count": 7
+}

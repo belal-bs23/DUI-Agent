@@ -1,0 +1,172 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing stepofficershiftzones with officerstepshifts with related data",
+  "columns": [
+    "StepOfficerShiftZoneId",
+    "OfficerStepShiftId",
+    "StepZoneId",
+    "OfficerStepShifts_StepOfficerShiftId",
+    "OfficerStepShifts_OfficerId",
+    "OfficerStepShifts_DepartmentId",
+    "OfficerStepShifts_ShiftStart",
+    "OfficerStepShifts_ShiftEnd",
+    "OfficerStepShifts_TotalHRSWorked",
+    "OfficerStepShifts_MileageStart",
+    "OfficerStepShifts_MileageEnd",
+    "OfficerStepShifts_MileageTotal",
+    "OfficerStepShifts_Comments",
+    "OfficerStepShifts_StepShiftId",
+    "OfficerStepShifts_StepGrantTypeId",
+    "OfficerStepShifts_Submitted",
+    "OfficerStepShifts_Approved",
+    "OfficerStepShifts_ApprovedBy",
+    "OfficerStepShifts_Rejected",
+    "OfficerStepShifts_RejectedBy",
+    "OfficerStepShifts_CreatedBy",
+    "OfficerStepShifts_Report",
+    "OfficerStepShifts_OldOfficerStepShiftId"
+  ],
+  "column_info": [
+    {
+      "name": "StepOfficerShiftZoneId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepZoneId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_StepOfficerShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_OfficerId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_DepartmentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_ShiftStart",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_ShiftEnd",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_TotalHRSWorked",
+      "type": "decimal",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_MileageStart",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_MileageEnd",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_MileageTotal",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_Comments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OfficerStepShifts_StepShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_StepGrantTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_Submitted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_Approved",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_ApprovedBy",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_Rejected",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_RejectedBy",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShifts_CreatedBy",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "OfficerStepShifts_Report",
+      "type": "varbinary",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "OfficerStepShifts_OldOfficerStepShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 32,
+  "has_data": true,
+  "column_count": 23
+}

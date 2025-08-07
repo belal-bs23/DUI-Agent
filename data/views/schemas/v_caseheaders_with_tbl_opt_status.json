@@ -1,0 +1,228 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing caseheaders with tbl opt status with related data",
+  "columns": [
+    "CaseId",
+    "UniqueId",
+    "StatusId",
+    "ModelId",
+    "LockedByOfficerId",
+    "ApprovedByOfficerId",
+    "OrganizationId",
+    "LocationId",
+    "District",
+    "Grid",
+    "Version",
+    "Active",
+    "ModeId",
+    "ProbableCause",
+    "IsTrainingPurpose",
+    "PaidTxDOT",
+    "StepGrantTypeId",
+    "CaseOwnerAgency",
+    "CaseOwnerBadge",
+    "CaseOwnerDepartmentId",
+    "CaseOwnerId",
+    "CaseOwnerName",
+    "CaseOwnerRank",
+    "TABC",
+    "AdditionalInformation",
+    "ActivityType",
+    "OfficerStepShiftId",
+    "StepZoneId",
+    "OldCaseID",
+    "TBL_OPT_Status_StatusId",
+    "TBL_OPT_Status_Active"
+  ],
+  "column_info": [
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "UniqueId",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": -1
+    },
+    {
+      "name": "StatusId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ModelId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "LockedByOfficerId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ApprovedByOfficerId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OrganizationId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "LocationId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "District",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "Grid",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "Version",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ModeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ProbableCause",
+      "type": "text",
+      "nullable": true,
+      "max_length": 2147483647
+    },
+    {
+      "name": "IsTrainingPurpose",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PaidTxDOT",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepGrantTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOwnerAgency",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseOwnerBadge",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseOwnerDepartmentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOwnerId",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseOwnerName",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseOwnerRank",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "TABC",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AdditionalInformation",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "ActivityType",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepZoneId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldCaseID",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TBL_OPT_Status_StatusId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TBL_OPT_Status_Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 547,
+  "has_data": true,
+  "column_count": 31
+}

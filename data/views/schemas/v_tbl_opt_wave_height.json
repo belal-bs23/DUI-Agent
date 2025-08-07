@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt wave height data",
+  "columns": [
+    "WaveHeightId",
+    "WaveHeightDesc",
+    "Active",
+    "SortOrder"
+  ],
+  "column_info": [
+    {
+      "name": "WaveHeightId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "WaveHeightDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SortOrder",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 6,
+  "has_data": true,
+  "column_count": 4
+}

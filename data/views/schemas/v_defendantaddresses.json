@@ -1,0 +1,116 @@
+{
+  "type": "simple",
+  "description": "Secure access to defendantaddresses data",
+  "columns": [
+    "DefendantId",
+    "StateId",
+    "CountyId",
+    "Lat",
+    "Lng",
+    "DefOccupation",
+    "DefPlaceEmployment",
+    "ContactName",
+    "EmStateId",
+    "OccStateId",
+    "Relationship",
+    "OccLat",
+    "OccLng",
+    "EmLat",
+    "EmLng"
+  ],
+  "column_info": [
+    {
+      "name": "DefendantId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "StateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CountyId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Lat",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Lng",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "DefOccupation",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "DefPlaceEmployment",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "ContactName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "EmStateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OccStateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Relationship",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "OccLat",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "OccLng",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "EmLat",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "EmLng",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    }
+  ],
+  "row_count": 390,
+  "has_data": true,
+  "column_count": 15
+}

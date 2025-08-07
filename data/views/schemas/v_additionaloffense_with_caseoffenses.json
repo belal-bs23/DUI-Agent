@@ -1,0 +1,179 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing additionaloffense with caseoffenses with related data",
+  "columns": [
+    "AdditionalOffenseId",
+    "CaseOffenseId",
+    "AdditionalOffenseDesc",
+    "OldAdditionalOffenseId",
+    "CaseOffenses_CaseOffenseId",
+    "CaseOffenses_Explanation",
+    "CaseOffenses_CaseId",
+    "CaseOffenses_OpenContainers",
+    "CaseOffenses_ContainersDesc",
+    "CaseOffenses_OffenseId",
+    "CaseOffenses_TimeOfOff",
+    "CaseOffenses_OffStateId",
+    "CaseOffenses_OffCountyId",
+    "CaseOffenses_OffLat",
+    "CaseOffenses_OffLng",
+    "CaseOffenses_TimeOfArrest",
+    "CaseOffenses_TimeOfBooking",
+    "CaseOffenses_TimeOfEventEnd",
+    "CaseOffenses_ArrestStateId",
+    "CaseOffenses_ArrestCountyId",
+    "CaseOffenses_ArrestLat",
+    "CaseOffenses_ArrestLng",
+    "CaseOffenses_OffenseAccidentId",
+    "CaseOffenses_OffenseInjuriesId"
+  ],
+  "column_info": [
+    {
+      "name": "AdditionalOffenseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AdditionalOffenseDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "OldAdditionalOffenseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenses_CaseOffenseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenses_Explanation",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseOffenses_CaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenses_OpenContainers",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenses_ContainersDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "CaseOffenses_OffenseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenses_TimeOfOff",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenses_OffStateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenses_OffCountyId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenses_OffLat",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "CaseOffenses_OffLng",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "CaseOffenses_TimeOfArrest",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenses_TimeOfBooking",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenses_TimeOfEventEnd",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenses_ArrestStateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenses_ArrestCountyId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenses_ArrestLat",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "CaseOffenses_ArrestLng",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "CaseOffenses_OffenseAccidentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseOffenses_OffenseInjuriesId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 76,
+  "has_data": true,
+  "column_count": 24
+}

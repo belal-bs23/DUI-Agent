@@ -1,0 +1,354 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing specimenbloodtest with specimenreport with related data",
+  "columns": [
+    "SpecimenBloodTestId",
+    "SpecimenReportId",
+    "BloodVials",
+    "MoreLessIntoxId",
+    "PersonName",
+    "EmployerName",
+    "EmployedId",
+    "Location",
+    "BWI_Preservative",
+    "BWI_NoAlcohol",
+    "BWI_Rotated",
+    "LabName",
+    "BwiStateBwd",
+    "SpecimenReport_SpecimenReportId",
+    "SpecimenReport_CaseId",
+    "SpecimenReport_Dic24ReadBy",
+    "SpecimenReport_Dic24Time",
+    "SpecimenReport_Dic24ReadEnglish",
+    "SpecimenReport_Dic24ReadSpanish",
+    "SpecimenReport_Dic24RecordingUsed",
+    "SpecimenReport_Breath",
+    "SpecimenReport_BreathProvided",
+    "SpecimenReport_BreathRefused",
+    "SpecimenReport_Blood",
+    "SpecimenReport_BloodProvided",
+    "SpecimenReport_BloodRefused",
+    "SpecimenReport_BloodSpecimenTaken",
+    "SpecimenReport_Urine",
+    "SpecimenReport_UrineProvided",
+    "SpecimenReport_UrineRefused",
+    "SpecimenReport_ProvidedNone",
+    "SpecimenReport_LabBACResult",
+    "SpecimenReport_AlcoholDetected",
+    "SpecimenReport_SearchWarrantSought",
+    "SpecimenReport_TimePresentedToMagistrate",
+    "SpecimenReport_SearchWarrantMagistrateName",
+    "SpecimenReport_SearchWarrantCourt",
+    "SpecimenReport_WarrantIssuedByMagistrate",
+    "SpecimenReport_MagistrateWarrantTime",
+    "SpecimenReport_HandedDic25",
+    "SpecimenReport_SubjectUnderstood",
+    "SpecimenReport_ProvidedOther",
+    "SpecimenReport_Refused",
+    "SpecimenReport_SpecimenStorageOther",
+    "SpecimenReport_SpecimenStorageId",
+    "SpecimenReport_SpecimenSubmittedMethodId",
+    "SpecimenReport_OldCaseId",
+    "SpecimenReport_ArchiveProvidedNone",
+    "SpecimenReport_PBTUsed"
+  ],
+  "column_info": [
+    {
+      "name": "SpecimenBloodTestId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReportId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "BloodVials",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "MoreLessIntoxId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PersonName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "EmployerName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "EmployedId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Location",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "BWI_Preservative",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BWI_NoAlcohol",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BWI_Rotated",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "LabName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "BwiStateBwd",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_SpecimenReportId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_CaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_Dic24ReadBy",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "SpecimenReport_Dic24Time",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_Dic24ReadEnglish",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_Dic24ReadSpanish",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_Dic24RecordingUsed",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_Breath",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_BreathProvided",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_BreathRefused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_Blood",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_BloodProvided",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_BloodRefused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_BloodSpecimenTaken",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_Urine",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_UrineProvided",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_UrineRefused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_ProvidedNone",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_LabBACResult",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "SpecimenReport_AlcoholDetected",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_SearchWarrantSought",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_TimePresentedToMagistrate",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_SearchWarrantMagistrateName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "SpecimenReport_SearchWarrantCourt",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "SpecimenReport_WarrantIssuedByMagistrate",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_MagistrateWarrantTime",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_HandedDic25",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 5
+    },
+    {
+      "name": "SpecimenReport_SubjectUnderstood",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_ProvidedOther",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_Refused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_SpecimenStorageOther",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "SpecimenReport_SpecimenStorageId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_SpecimenSubmittedMethodId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_OldCaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_ArchiveProvidedNone",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReport_PBTUsed",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 128,
+  "has_data": true,
+  "column_count": 49
+}

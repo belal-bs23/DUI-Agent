@@ -1,0 +1,284 @@
+{
+  "type": "simple",
+  "description": "Secure access to fstsupplementhgntest data",
+  "columns": [
+    "HGNId",
+    "SupplementId",
+    "HGNGiven",
+    "ReasonNotGiven",
+    "HeadInjuries",
+    "HeadInjuryExplain",
+    "WearGlass",
+    "WearGlassExplain",
+    "EqualPupilSize",
+    "EqualPupilSizeExplain",
+    "RestingNystagmus",
+    "EqualTracking",
+    "FollowStimulus",
+    "FollowStimulusExplain",
+    "StimulusAboveEyeLevel",
+    "ForwardEmergencyLightsActive",
+    "DefFacingFlashLight",
+    "FlashLightExplain",
+    "StatedHGN",
+    "LackOfPursuit",
+    "LackOfPursuitLeft",
+    "LackOfPursuitRight",
+    "MaximumDeviation",
+    "MaxDeviationLeft",
+    "MaxDeviationRight",
+    "NystagmusPrior",
+    "NystagmusPriorLeft",
+    "NystagmusPriorRight",
+    "AngleOfOnset",
+    "AngleOnsetNystagmus",
+    "VerticalNystagmus",
+    "TotalHGNClues",
+    "Comments",
+    "OldHGNId",
+    "VerticalNystagmusLeft",
+    "VerticalNystagmusRight",
+    "HGNAdminbyReportingAgent",
+    "CluesLeft",
+    "CluesRight"
+  ],
+  "column_info": [
+    {
+      "name": "HGNId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SupplementId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "HGNGiven",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ReasonNotGiven",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "HeadInjuries",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "HeadInjuryExplain",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "WearGlass",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WearGlassExplain",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "EqualPupilSize",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EqualPupilSizeExplain",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "RestingNystagmus",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EqualTracking",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FollowStimulus",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FollowStimulusExplain",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "StimulusAboveEyeLevel",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ForwardEmergencyLightsActive",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefFacingFlashLight",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FlashLightExplain",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "StatedHGN",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "LackOfPursuit",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "LackOfPursuitLeft",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "LackOfPursuitRight",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MaximumDeviation",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "MaxDeviationLeft",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MaxDeviationRight",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "NystagmusPrior",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "NystagmusPriorLeft",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "NystagmusPriorRight",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AngleOfOnset",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AngleOnsetNystagmus",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "VerticalNystagmus",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TotalHGNClues",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Comments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OldHGNId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VerticalNystagmusLeft",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VerticalNystagmusRight",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "HGNAdminbyReportingAgent",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CluesLeft",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 4
+    },
+    {
+      "name": "CluesRight",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 4
+    }
+  ],
+  "row_count": 29,
+  "has_data": true,
+  "column_count": 39
+}

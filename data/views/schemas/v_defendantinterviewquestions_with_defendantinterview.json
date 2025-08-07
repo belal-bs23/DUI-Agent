@@ -1,0 +1,172 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing defendantinterviewquestions with defendantinterview with related data",
+  "columns": [
+    "DefendantInterviewQuestionId",
+    "DefendantInterviewId",
+    "InterviewQuestionId",
+    "Answer",
+    "OLD_CASE_QUESTION_ID",
+    "DefendantInterview_DefendantInterviewId",
+    "DefendantInterview_DefendantId",
+    "DefendantInterview_MirandaWarningRead",
+    "DefendantInterview_MirandaInEnglish",
+    "DefendantInterview_MirandaInSpanish",
+    "DefendantInterview_StatedUnderstood",
+    "DefendantInterview_ReadBy",
+    "DefendantInterview_TimeRead",
+    "DefendantInterview_Comments",
+    "DefendantInterview_AskOnVideo",
+    "DefendantInterview_DefendantSpeech",
+    "DefendantInterview_DoNotAskQuestion",
+    "DefendantInterview_DoNotAskQuestionForLanguage",
+    "DefendantInterview_Interviewer",
+    "DefendantInterview_InterviewerId",
+    "DefendantInterview_RefuseToAnswer",
+    "DefendantInterview_UnusualActions",
+    "DefendantInterview_TimeOfInterview"
+  ],
+  "column_info": [
+    {
+      "name": "DefendantInterviewQuestionId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DefendantInterviewId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "InterviewQuestionId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Answer",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OLD_CASE_QUESTION_ID",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefendantInterview_DefendantInterviewId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefendantInterview_DefendantId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefendantInterview_MirandaWarningRead",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefendantInterview_MirandaInEnglish",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefendantInterview_MirandaInSpanish",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefendantInterview_StatedUnderstood",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefendantInterview_ReadBy",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 255
+    },
+    {
+      "name": "DefendantInterview_TimeRead",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 5
+    },
+    {
+      "name": "DefendantInterview_Comments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "DefendantInterview_AskOnVideo",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefendantInterview_DefendantSpeech",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "DefendantInterview_DoNotAskQuestion",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefendantInterview_DoNotAskQuestionForLanguage",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefendantInterview_Interviewer",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "DefendantInterview_InterviewerId",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "DefendantInterview_RefuseToAnswer",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefendantInterview_UnusualActions",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "DefendantInterview_TimeOfInterview",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 5
+    }
+  ],
+  "row_count": 5121,
+  "has_data": true,
+  "column_count": 23
+}

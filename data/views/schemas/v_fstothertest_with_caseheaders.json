@@ -1,0 +1,480 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing fstothertest with caseheaders with related data",
+  "columns": [
+    "OtherTestId",
+    "CaseId",
+    "FingerCountGiven",
+    "FingerCountDesc",
+    "AlphabetTestGiven",
+    "AlphabetTestDesc",
+    "OtherTestDesc",
+    "StatedAlphabetTest",
+    "AlphabetTestGivenInstruction",
+    "AlphabetTestRefused",
+    "AlphabetTestComplete",
+    "AlphabetTestCompleteComments",
+    "AlphabetTestSang",
+    "AlphabetTestSangComments",
+    "AlphabetTestLetterRepeated",
+    "AlphabetTestLetterRepeatedComments",
+    "AlphabetTestHesitation",
+    "AlphabetTestHesitationComments",
+    "StatedFingerCountInstruction",
+    "FcGaveInstruction",
+    "FcRefused",
+    "FCComplete",
+    "FCCompleteDesc",
+    "FCMiscounted",
+    "FCMiscountedComments",
+    "FCSliding",
+    "FCSlidingComment",
+    "FCNoSpeedUp",
+    "FCNoSpeedUpComments",
+    "FCImproperTouch",
+    "FCImproperTouchComments",
+    "FCImproperCount",
+    "FCImproperCountComments",
+    "FCOtherObservation",
+    "FcSafety",
+    "ALetterStart",
+    "ALetterFinish",
+    "ASafety",
+    "CaseHeaders_CaseId",
+    "CaseHeaders_UniqueId",
+    "CaseHeaders_StatusId",
+    "CaseHeaders_ModelId",
+    "CaseHeaders_LockedByOfficerId",
+    "CaseHeaders_ApprovedByOfficerId",
+    "CaseHeaders_OrganizationId",
+    "CaseHeaders_LocationId",
+    "CaseHeaders_District",
+    "CaseHeaders_Grid",
+    "CaseHeaders_Version",
+    "CaseHeaders_Active",
+    "CaseHeaders_ModeId",
+    "CaseHeaders_ProbableCause",
+    "CaseHeaders_IsTrainingPurpose",
+    "CaseHeaders_PaidTxDOT",
+    "CaseHeaders_StepGrantTypeId",
+    "CaseHeaders_CaseOwnerAgency",
+    "CaseHeaders_CaseOwnerBadge",
+    "CaseHeaders_CaseOwnerDepartmentId",
+    "CaseHeaders_CaseOwnerId",
+    "CaseHeaders_CaseOwnerName",
+    "CaseHeaders_CaseOwnerRank",
+    "CaseHeaders_TABC",
+    "CaseHeaders_AdditionalInformation",
+    "CaseHeaders_ActivityType",
+    "CaseHeaders_OfficerStepShiftId",
+    "CaseHeaders_StepZoneId",
+    "CaseHeaders_OldCaseID"
+  ],
+  "column_info": [
+    {
+      "name": "OtherTestId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "FingerCountGiven",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FingerCountDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "AlphabetTestGiven",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OtherTestDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "StatedAlphabetTest",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestGivenInstruction",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestRefused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestComplete",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestCompleteComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "AlphabetTestSang",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestSangComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "AlphabetTestLetterRepeated",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestLetterRepeatedComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "AlphabetTestHesitation",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestHesitationComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "StatedFingerCountInstruction",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FcGaveInstruction",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FcRefused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCComplete",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCCompleteDesc",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "FCMiscounted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCMiscountedComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "FCSliding",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCSlidingComment",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "FCNoSpeedUp",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCNoSpeedUpComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "FCImproperTouch",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCImproperTouchComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "FCImproperCount",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCImproperCountComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "FCOtherObservation",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "FcSafety",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ALetterStart",
+      "type": "char",
+      "nullable": true,
+      "max_length": 1
+    },
+    {
+      "name": "ALetterFinish",
+      "type": "char",
+      "nullable": true,
+      "max_length": 1
+    },
+    {
+      "name": "ASafety",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_CaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_UniqueId",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "CaseHeaders_StatusId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_ModelId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_LockedByOfficerId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_ApprovedByOfficerId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_OrganizationId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_LocationId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_District",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "CaseHeaders_Grid",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "CaseHeaders_Version",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_ModeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_ProbableCause",
+      "type": "text",
+      "nullable": true,
+      "max_length": 2147483647
+    },
+    {
+      "name": "CaseHeaders_IsTrainingPurpose",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_PaidTxDOT",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_StepGrantTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_CaseOwnerAgency",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseHeaders_CaseOwnerBadge",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseHeaders_CaseOwnerDepartmentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_CaseOwnerId",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseHeaders_CaseOwnerName",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseHeaders_CaseOwnerRank",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseHeaders_TABC",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_AdditionalInformation",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "CaseHeaders_ActivityType",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_OfficerStepShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_StepZoneId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_OldCaseID",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 86,
+  "has_data": true,
+  "column_count": 67
+}

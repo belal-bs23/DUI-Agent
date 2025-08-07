@@ -1,0 +1,102 @@
+{
+  "type": "simple",
+  "description": "Secure access to specimenbloodtest data",
+  "columns": [
+    "SpecimenBloodTestId",
+    "SpecimenReportId",
+    "BloodVials",
+    "MoreLessIntoxId",
+    "PersonName",
+    "EmployerName",
+    "EmployedId",
+    "Location",
+    "BWI_Preservative",
+    "BWI_NoAlcohol",
+    "BWI_Rotated",
+    "LabName",
+    "BwiStateBwd"
+  ],
+  "column_info": [
+    {
+      "name": "SpecimenBloodTestId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReportId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "BloodVials",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "MoreLessIntoxId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PersonName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "EmployerName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "EmployedId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Location",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "BWI_Preservative",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BWI_NoAlcohol",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BWI_Rotated",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "LabName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "BwiStateBwd",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 128,
+  "has_data": true,
+  "column_count": 13
+}

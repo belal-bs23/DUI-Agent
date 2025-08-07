@@ -1,0 +1,32 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt step dar event types data",
+  "columns": [
+    "StepDarEventTypeId",
+    "StepDarEventTypeDesc",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "StepDarEventTypeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "StepDarEventTypeDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 1,
+  "has_data": true,
+  "column_count": 3
+}

@@ -1,0 +1,32 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt ncic transport type data",
+  "columns": [
+    "NcicTransportTypeId",
+    "TransportModeId",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "NcicTransportTypeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "TransportModeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 9,
+  "has_data": true,
+  "column_count": 3
+}

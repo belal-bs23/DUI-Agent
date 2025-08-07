@@ -1,0 +1,270 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing vehicle watercraft with casevehicles with related data",
+  "columns": [
+    "VehicleWatercraftId",
+    "HIN",
+    "MotorId",
+    "VesselId",
+    "VesselComments",
+    "BoatCondition",
+    "Less50HP",
+    "VehicleId",
+    "CaseVehicles_CaseVehicleId",
+    "CaseVehicles_CaseId",
+    "CaseVehicles_VehicleTypeId",
+    "CaseVehicles_VehicleMakeId",
+    "CaseVehicles_VehicleModelId",
+    "CaseVehicles_VehicleStyleId",
+    "CaseVehicles_VehicleColorId",
+    "CaseVehicles_Year",
+    "CaseVehicles_StateId",
+    "CaseVehicles_VIN",
+    "CaseVehicles_Impounded",
+    "CaseVehicles_ImpoundedBy",
+    "CaseVehicles_StoredAt",
+    "CaseVehicles_VehiclePlacedOnHold",
+    "CaseVehicles_HoldReason",
+    "CaseVehicles_VehicleWatercraftId",
+    "CaseVehicles_VehicleWatercraftOwnerId",
+    "CaseVehicles_VehicleCommercial",
+    "CaseVehicles_VehicleHazMat",
+    "CaseVehicles_VehicleCondition",
+    "CaseVehicles_BoatHullShapeId",
+    "CaseVehicles_VehicleBwiMotorYear",
+    "CaseVehicles_VehicleBwiMotorHorsepower",
+    "CaseVehicles_VehicleBwiMotorManufacturer",
+    "CaseVehicles_VehicleBwiMotorSerial",
+    "CaseVehicles_VehicleBwiTrailerManufacturer",
+    "CaseVehicles_VehicleBwiTrailerRegistraitonNum",
+    "CaseVehicles_VehicleModeId",
+    "CaseVehicles_OldCaseId"
+  ],
+  "column_info": [
+    {
+      "name": "VehicleWatercraftId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "HIN",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "MotorId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VesselId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VesselComments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "BoatCondition",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "Less50HP",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VehicleId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_CaseVehicleId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_CaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_VehicleTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_VehicleMakeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_VehicleModelId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_VehicleStyleId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_VehicleColorId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_Year",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 4
+    },
+    {
+      "name": "CaseVehicles_StateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_VIN",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "CaseVehicles_Impounded",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_ImpoundedBy",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "CaseVehicles_StoredAt",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "CaseVehicles_VehiclePlacedOnHold",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_HoldReason",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseVehicles_VehicleWatercraftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_VehicleWatercraftOwnerId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_VehicleCommercial",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_VehicleHazMat",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_VehicleCondition",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "CaseVehicles_BoatHullShapeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_VehicleBwiMotorYear",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_VehicleBwiMotorHorsepower",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_VehicleBwiMotorManufacturer",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "CaseVehicles_VehicleBwiMotorSerial",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "CaseVehicles_VehicleBwiTrailerManufacturer",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "CaseVehicles_VehicleBwiTrailerRegistraitonNum",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "CaseVehicles_VehicleModeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseVehicles_OldCaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 29,
+  "has_data": true,
+  "column_count": 37
+}

@@ -1,0 +1,109 @@
+{
+  "type": "simple",
+  "description": "Secure access to supplementwitnesses data",
+  "columns": [
+    "SupplementWitnessId",
+    "SupplementId",
+    "LastName",
+    "FirstName",
+    "RaceId",
+    "GenderId",
+    "IsVictim",
+    "WhatWitnessObserved",
+    "StateId",
+    "CountyId",
+    "Lat",
+    "Lng",
+    "ArchiveOfficer",
+    "ArchiveState"
+  ],
+  "column_info": [
+    {
+      "name": "SupplementWitnessId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SupplementId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "LastName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "FirstName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 30
+    },
+    {
+      "name": "RaceId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "GenderId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "IsVictim",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WhatWitnessObserved",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 4000
+    },
+    {
+      "name": "StateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CountyId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Lat",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Lng",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "ArchiveOfficer",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArchiveState",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 255
+    }
+  ],
+  "row_count": 24,
+  "has_data": true,
+  "column_count": 14
+}

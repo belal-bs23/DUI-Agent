@@ -1,0 +1,32 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt ncic colors data",
+  "columns": [
+    "NcicColorId",
+    "NcicCode",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "NcicColorId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "NcicCode",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 37,
+  "has_data": true,
+  "column_count": 3
+}

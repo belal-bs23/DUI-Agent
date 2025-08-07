@@ -1,0 +1,1148 @@
+[
+  {
+    "name": "v___efmigrationshistory",
+    "description": "Secure access to   efmigrationshistory data",
+    "columns_count": 2,
+    "type": "supporting"
+  },
+  {
+    "name": "v_additionaloffense",
+    "description": "Secure access to additionaloffense data",
+    "columns_count": 4,
+    "type": "primary"
+  },
+  {
+    "name": "v_additionaloffense_with_caseoffenses",
+    "description": "Joined view providing additionaloffense with caseoffenses with related data",
+    "columns_count": 24,
+    "type": "primary"
+  },
+  {
+    "name": "v_archivecases",
+    "description": "Secure access to archivecases data",
+    "columns_count": 30,
+    "type": "primary"
+  },
+  {
+    "name": "v_archivecases_with_caseheaders",
+    "description": "Joined view providing archivecases with caseheaders with related data",
+    "columns_count": 59,
+    "type": "primary"
+  },
+  {
+    "name": "v_caseaddenda",
+    "description": "Secure access to caseaddenda data",
+    "columns_count": 6,
+    "type": "primary"
+  },
+  {
+    "name": "v_caseexpunged",
+    "description": "Secure access to caseexpunged data",
+    "columns_count": 7,
+    "type": "primary"
+  },
+  {
+    "name": "v_caseheaders",
+    "description": "Secure access to caseheaders data",
+    "columns_count": 29,
+    "type": "primary"
+  },
+  {
+    "name": "v_caseheaders_with_tbl_opt_status",
+    "description": "Joined view providing caseheaders with tbl opt status with related data",
+    "columns_count": 31,
+    "type": "primary"
+  },
+  {
+    "name": "v_caseoffenses",
+    "description": "Secure access to caseoffenses data",
+    "columns_count": 20,
+    "type": "primary"
+  },
+  {
+    "name": "v_caseoffenses_with_caseheaders",
+    "description": "Joined view providing caseoffenses with caseheaders with related data",
+    "columns_count": 49,
+    "type": "primary"
+  },
+  {
+    "name": "v_casereviewhistory",
+    "description": "Secure access to casereviewhistory data",
+    "columns_count": 4,
+    "type": "primary"
+  },
+  {
+    "name": "v_casesearchwarrant",
+    "description": "Secure access to casesearchwarrant data",
+    "columns_count": 27,
+    "type": "primary"
+  },
+  {
+    "name": "v_casesearchwarrantactivity",
+    "description": "Secure access to casesearchwarrantactivity data",
+    "columns_count": 13,
+    "type": "primary"
+  },
+  {
+    "name": "v_casesearchwarrantfile",
+    "description": "Secure access to casesearchwarrantfile data",
+    "columns_count": 30,
+    "type": "primary"
+  },
+  {
+    "name": "v_casevehiclepassengers",
+    "description": "Secure access to casevehiclepassengers data",
+    "columns_count": 23,
+    "type": "primary"
+  },
+  {
+    "name": "v_casevehiclepassengers_with_casevehicles",
+    "description": "Joined view providing casevehiclepassengers with casevehicles with related data",
+    "columns_count": 52,
+    "type": "primary"
+  },
+  {
+    "name": "v_casevehicles",
+    "description": "Secure access to casevehicles data",
+    "columns_count": 29,
+    "type": "primary"
+  },
+  {
+    "name": "v_casevehicles_with_caseheaders",
+    "description": "Joined view providing casevehicles with caseheaders with related data",
+    "columns_count": 58,
+    "type": "primary"
+  },
+  {
+    "name": "v_caseviolations",
+    "description": "Secure access to caseviolations data",
+    "columns_count": 7,
+    "type": "primary"
+  },
+  {
+    "name": "v_caseviolations_with_caseheaders",
+    "description": "Joined view providing caseviolations with caseheaders with related data",
+    "columns_count": 36,
+    "type": "primary"
+  },
+  {
+    "name": "v_casewarrantform",
+    "description": "Secure access to casewarrantform data",
+    "columns_count": 5,
+    "type": "primary"
+  },
+  {
+    "name": "v_conditionreasonforstop",
+    "description": "Secure access to conditionreasonforstop data",
+    "columns_count": 6,
+    "type": "supporting"
+  },
+  {
+    "name": "v_conditionreasonforstop_with_conditions",
+    "description": "Joined view providing conditionreasonforstop with conditions with related data",
+    "columns_count": 33,
+    "type": "supporting"
+  },
+  {
+    "name": "v_conditions",
+    "description": "Secure access to conditions data",
+    "columns_count": 27,
+    "type": "supporting"
+  },
+  {
+    "name": "v_conditions_with_caseheaders",
+    "description": "Joined view providing conditions with caseheaders with related data",
+    "columns_count": 56,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantadditionalinfo",
+    "description": "Secure access to defendantadditionalinfo data",
+    "columns_count": 20,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantadditionalinfo_with_defendants",
+    "description": "Joined view providing defendantadditionalinfo with defendants with related data",
+    "columns_count": 53,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantaddresses",
+    "description": "Secure access to defendantaddresses data",
+    "columns_count": 15,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantaddresses_with_defendants",
+    "description": "Joined view providing defendantaddresses with defendants with related data",
+    "columns_count": 48,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantemcontacts",
+    "description": "Secure access to defendantemcontacts data",
+    "columns_count": 8,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantemcontacts_with_defendants",
+    "description": "Joined view providing defendantemcontacts with defendants with related data",
+    "columns_count": 41,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantinterview",
+    "description": "Secure access to defendantinterview data",
+    "columns_count": 18,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantinterview_with_defendants",
+    "description": "Joined view providing defendantinterview with defendants with related data",
+    "columns_count": 51,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantinterviewquestions",
+    "description": "Secure access to defendantinterviewquestions data",
+    "columns_count": 5,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantinterviewquestions_with_defendantinterview",
+    "description": "Joined view providing defendantinterviewquestions with defendantinterview with related data",
+    "columns_count": 23,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantobservations",
+    "description": "Secure access to defendantobservations data",
+    "columns_count": 55,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantobservations_with_defendants",
+    "description": "Joined view providing defendantobservations with defendants with related data",
+    "columns_count": 88,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantoccupationaddress",
+    "description": "Secure access to defendantoccupationaddress data",
+    "columns_count": 2,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantoccupationaddress_with_tbl_opt_states",
+    "description": "Joined view providing defendantoccupationaddress with tbl opt states with related data",
+    "columns_count": 6,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendants",
+    "description": "Secure access to defendants data",
+    "columns_count": 33,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendants_with_caseheaders",
+    "description": "Joined view providing defendants with caseheaders with related data",
+    "columns_count": 62,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantstatement",
+    "description": "Secure access to defendantstatement data",
+    "columns_count": 14,
+    "type": "primary"
+  },
+  {
+    "name": "v_defendantstatement_with_defendants",
+    "description": "Joined view providing defendantstatement with defendants with related data",
+    "columns_count": 47,
+    "type": "primary"
+  },
+  {
+    "name": "v_documents",
+    "description": "Secure access to documents data",
+    "columns_count": 12,
+    "type": "supporting"
+  },
+  {
+    "name": "v_documents_with_tbl_opt_documentfiletypes",
+    "description": "Joined view providing documents with tbl opt documentfiletypes with related data",
+    "columns_count": 20,
+    "type": "reference"
+  },
+  {
+    "name": "v_duicasenotes",
+    "description": "Secure access to duicasenotes data",
+    "columns_count": 5,
+    "type": "primary"
+  },
+  {
+    "name": "v_duicasenotes_with_caseheaders",
+    "description": "Joined view providing duicasenotes with caseheaders with related data",
+    "columns_count": 34,
+    "type": "primary"
+  },
+  {
+    "name": "v_duicasenotetype",
+    "description": "Secure access to duicasenotetype data",
+    "columns_count": 5,
+    "type": "primary"
+  },
+  {
+    "name": "v_duicasenotetype_with_systempages",
+    "description": "Joined view providing duicasenotetype with systempages with related data",
+    "columns_count": 11,
+    "type": "primary"
+  },
+  {
+    "name": "v_duicasetoxspec",
+    "description": "Secure access to duicasetoxspec data",
+    "columns_count": 10,
+    "type": "primary"
+  },
+  {
+    "name": "v_duireportrequest",
+    "description": "Secure access to duireportrequest data",
+    "columns_count": 14,
+    "type": "supporting"
+  },
+  {
+    "name": "v_duireportrequest_with_caseheaders",
+    "description": "Joined view providing duireportrequest with caseheaders with related data",
+    "columns_count": 43,
+    "type": "primary"
+  },
+  {
+    "name": "v_duitoxicologydrug",
+    "description": "Secure access to duitoxicologydrug data",
+    "columns_count": 7,
+    "type": "supporting"
+  },
+  {
+    "name": "v_duitoxilyzerreport",
+    "description": "Secure access to duitoxilyzerreport data",
+    "columns_count": 11,
+    "type": "supporting"
+  },
+  {
+    "name": "v_evidencedocuments",
+    "description": "Secure access to evidencedocuments data",
+    "columns_count": 6,
+    "type": "primary"
+  },
+  {
+    "name": "v_evidencedocuments_with_caseheaders",
+    "description": "Joined view providing evidencedocuments with caseheaders with related data",
+    "columns_count": 35,
+    "type": "primary"
+  },
+  {
+    "name": "v_evidencerecordings",
+    "description": "Secure access to evidencerecordings data",
+    "columns_count": 22,
+    "type": "primary"
+  },
+  {
+    "name": "v_evidencerecordings_with_physicalevidence",
+    "description": "Joined view providing evidencerecordings with physicalevidence with related data",
+    "columns_count": 32,
+    "type": "primary"
+  },
+  {
+    "name": "v_fieldsobrietytests",
+    "description": "Secure access to fieldsobrietytests data",
+    "columns_count": 17,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fieldsobrietytests_with_caseheaders",
+    "description": "Joined view providing fieldsobrietytests with caseheaders with related data",
+    "columns_count": 46,
+    "type": "primary"
+  },
+  {
+    "name": "v_fstfingertonosetest",
+    "description": "Secure access to fstfingertonosetest data",
+    "columns_count": 52,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fstfingertonosetest_with_caseheaders",
+    "description": "Joined view providing fstfingertonosetest with caseheaders with related data",
+    "columns_count": 81,
+    "type": "primary"
+  },
+  {
+    "name": "v_fsthandcoordination",
+    "description": "Secure access to fsthandcoordination data",
+    "columns_count": 38,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fsthandcoordination_with_caseheaders",
+    "description": "Joined view providing fsthandcoordination with caseheaders with related data",
+    "columns_count": 67,
+    "type": "primary"
+  },
+  {
+    "name": "v_fsthgntest",
+    "description": "Secure access to fsthgntest data",
+    "columns_count": 39,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fsthgntest_with_caseheaders",
+    "description": "Joined view providing fsthgntest with caseheaders with related data",
+    "columns_count": 68,
+    "type": "primary"
+  },
+  {
+    "name": "v_fstonelegstandtest",
+    "description": "Secure access to fstonelegstandtest data",
+    "columns_count": 28,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fstonelegstandtest_with_caseheaders",
+    "description": "Joined view providing fstonelegstandtest with caseheaders with related data",
+    "columns_count": 57,
+    "type": "primary"
+  },
+  {
+    "name": "v_fstothertest",
+    "description": "Secure access to fstothertest data",
+    "columns_count": 38,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fstothertest_with_caseheaders",
+    "description": "Joined view providing fstothertest with caseheaders with related data",
+    "columns_count": 67,
+    "type": "primary"
+  },
+  {
+    "name": "v_fstpalmpattest",
+    "description": "Secure access to fstpalmpattest data",
+    "columns_count": 46,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fstpalmpattest_with_caseheaders",
+    "description": "Joined view providing fstpalmpattest with caseheaders with related data",
+    "columns_count": 75,
+    "type": "primary"
+  },
+  {
+    "name": "v_fstsupplementfingertonosetest",
+    "description": "Secure access to fstsupplementfingertonosetest data",
+    "columns_count": 53,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fstsupplementhandcoordination",
+    "description": "Secure access to fstsupplementhandcoordination data",
+    "columns_count": 39,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fstsupplementhgntest",
+    "description": "Secure access to fstsupplementhgntest data",
+    "columns_count": 39,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fstsupplementonelegstandtest",
+    "description": "Secure access to fstsupplementonelegstandtest data",
+    "columns_count": 27,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fstsupplementothertest",
+    "description": "Secure access to fstsupplementothertest data",
+    "columns_count": 37,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fstsupplementpalmpattest",
+    "description": "Secure access to fstsupplementpalmpattest data",
+    "columns_count": 47,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fstsupplementwalkandturntest",
+    "description": "Secure access to fstsupplementwalkandturntest data",
+    "columns_count": 31,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fstwalkandturntest",
+    "description": "Secure access to fstwalkandturntest data",
+    "columns_count": 30,
+    "type": "supporting"
+  },
+  {
+    "name": "v_fstwalkandturntest_with_caseheaders",
+    "description": "Joined view providing fstwalkandturntest with caseheaders with related data",
+    "columns_count": 59,
+    "type": "primary"
+  },
+  {
+    "name": "v_narrativeailogs",
+    "description": "Secure access to narrativeailogs data",
+    "columns_count": 7,
+    "type": "supporting"
+  },
+  {
+    "name": "v_officerstepshifts",
+    "description": "Secure access to officerstepshifts data",
+    "columns_count": 20,
+    "type": "supporting"
+  },
+  {
+    "name": "v_officerstepshifts_with_stepshifts",
+    "description": "Joined view providing officerstepshifts with stepshifts with related data",
+    "columns_count": 28,
+    "type": "supporting"
+  },
+  {
+    "name": "v_otherofficers",
+    "description": "Secure access to otherofficers data",
+    "columns_count": 6,
+    "type": "supporting"
+  },
+  {
+    "name": "v_otherofficers_with_caseheaders",
+    "description": "Joined view providing otherofficers with caseheaders with related data",
+    "columns_count": 35,
+    "type": "primary"
+  },
+  {
+    "name": "v_physicalevidence",
+    "description": "Secure access to physicalevidence data",
+    "columns_count": 10,
+    "type": "primary"
+  },
+  {
+    "name": "v_physicalevidence_with_caseheaders",
+    "description": "Joined view providing physicalevidence with caseheaders with related data",
+    "columns_count": 39,
+    "type": "primary"
+  },
+  {
+    "name": "v_questionforai",
+    "description": "Secure access to questionforai data",
+    "columns_count": 12,
+    "type": "supporting"
+  },
+  {
+    "name": "v_specimenbloodtest",
+    "description": "Secure access to specimenbloodtest data",
+    "columns_count": 13,
+    "type": "supporting"
+  },
+  {
+    "name": "v_specimenbloodtest_with_specimenreport",
+    "description": "Joined view providing specimenbloodtest with specimenreport with related data",
+    "columns_count": 49,
+    "type": "supporting"
+  },
+  {
+    "name": "v_specimenbreathtest",
+    "description": "Secure access to specimenbreathtest data",
+    "columns_count": 16,
+    "type": "supporting"
+  },
+  {
+    "name": "v_specimenbreathtest_with_specimenreport",
+    "description": "Joined view providing specimenbreathtest with specimenreport with related data",
+    "columns_count": 52,
+    "type": "supporting"
+  },
+  {
+    "name": "v_specimenreport",
+    "description": "Secure access to specimenreport data",
+    "columns_count": 36,
+    "type": "supporting"
+  },
+  {
+    "name": "v_specimenreport_with_caseheaders",
+    "description": "Joined view providing specimenreport with caseheaders with related data",
+    "columns_count": 65,
+    "type": "primary"
+  },
+  {
+    "name": "v_specimenurinetest",
+    "description": "Secure access to specimenurinetest data",
+    "columns_count": 8,
+    "type": "supporting"
+  },
+  {
+    "name": "v_specimenurinetest_with_specimenreport",
+    "description": "Joined view providing specimenurinetest with specimenreport with related data",
+    "columns_count": 44,
+    "type": "supporting"
+  },
+  {
+    "name": "v_stepofficershiftcases",
+    "description": "Secure access to stepofficershiftcases data",
+    "columns_count": 4,
+    "type": "primary"
+  },
+  {
+    "name": "v_stepofficershiftcases_with_caseheaders",
+    "description": "Joined view providing stepofficershiftcases with caseheaders with related data",
+    "columns_count": 33,
+    "type": "primary"
+  },
+  {
+    "name": "v_stepofficershiftzones",
+    "description": "Secure access to stepofficershiftzones data",
+    "columns_count": 3,
+    "type": "supporting"
+  },
+  {
+    "name": "v_stepofficershiftzones_with_officerstepshifts",
+    "description": "Joined view providing stepofficershiftzones with officerstepshifts with related data",
+    "columns_count": 23,
+    "type": "supporting"
+  },
+  {
+    "name": "v_stepshifts",
+    "description": "Secure access to stepshifts data",
+    "columns_count": 8,
+    "type": "supporting"
+  },
+  {
+    "name": "v_stepshifts_with_tbl_opt_step_grant_type",
+    "description": "Joined view providing stepshifts with tbl opt step grant type with related data",
+    "columns_count": 11,
+    "type": "reference"
+  },
+  {
+    "name": "v_stepzones",
+    "description": "Secure access to stepzones data",
+    "columns_count": 7,
+    "type": "supporting"
+  },
+  {
+    "name": "v_stepzones_with_tbl_opt_step_grant_type",
+    "description": "Joined view providing stepzones with tbl opt step grant type with related data",
+    "columns_count": 10,
+    "type": "reference"
+  },
+  {
+    "name": "v_supplement",
+    "description": "Secure access to supplement data",
+    "columns_count": 19,
+    "type": "supporting"
+  },
+  {
+    "name": "v_supplementdocuments",
+    "description": "Secure access to supplementdocuments data",
+    "columns_count": 6,
+    "type": "supporting"
+  },
+  {
+    "name": "v_supplementdocuments_with_documents",
+    "description": "Joined view providing supplementdocuments with documents with related data",
+    "columns_count": 18,
+    "type": "supporting"
+  },
+  {
+    "name": "v_supplementfieldsobrietytests",
+    "description": "Secure access to supplementfieldsobrietytests data",
+    "columns_count": 16,
+    "type": "supporting"
+  },
+  {
+    "name": "v_supplementintoxilyzerreport",
+    "description": "Secure access to supplementintoxilyzerreport data",
+    "columns_count": 5,
+    "type": "supporting"
+  },
+  {
+    "name": "v_supplementwitnesses",
+    "description": "Secure access to supplementwitnesses data",
+    "columns_count": 14,
+    "type": "supporting"
+  },
+  {
+    "name": "v_systemmodecontrols",
+    "description": "Secure access to systemmodecontrols data",
+    "columns_count": 11,
+    "type": "supporting"
+  },
+  {
+    "name": "v_systemmodecontrols_with_systempages",
+    "description": "Joined view providing systemmodecontrols with systempages with related data",
+    "columns_count": 17,
+    "type": "supporting"
+  },
+  {
+    "name": "v_systempages",
+    "description": "Secure access to systempages data",
+    "columns_count": 6,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tabcnotificationlog",
+    "description": "Secure access to tabcnotificationlog data",
+    "columns_count": 6,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_accidents",
+    "description": "Secure access to tbl opt accidents data",
+    "columns_count": 2,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_activitytypes",
+    "description": "Secure access to tbl opt activitytypes data",
+    "columns_count": 4,
+    "type": "reference"
+  },
+  {
+    "name": "v_tbl_opt_addressgroup",
+    "description": "Secure access to tbl opt addressgroup data",
+    "columns_count": 2,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_alcoholtypes",
+    "description": "Secure access to tbl opt alcoholtypes data",
+    "columns_count": 3,
+    "type": "reference"
+  },
+  {
+    "name": "v_tbl_opt_bodywaters",
+    "description": "Secure access to tbl opt bodywaters data",
+    "columns_count": 4,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_bwi_motors",
+    "description": "Secure access to tbl opt bwi motors data",
+    "columns_count": 3,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_bwi_vessels",
+    "description": "Secure access to tbl opt bwi vessels data",
+    "columns_count": 3,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_case_outcome_dismissals",
+    "description": "Secure access to tbl opt case outcome dismissals data",
+    "columns_count": 3,
+    "type": "primary"
+  },
+  {
+    "name": "v_tbl_opt_case_outcome_pleas",
+    "description": "Secure access to tbl opt case outcome pleas data",
+    "columns_count": 3,
+    "type": "primary"
+  },
+  {
+    "name": "v_tbl_opt_case_outcome_trials",
+    "description": "Secure access to tbl opt case outcome trials data",
+    "columns_count": 3,
+    "type": "primary"
+  },
+  {
+    "name": "v_tbl_opt_counties",
+    "description": "Secure access to tbl opt counties data",
+    "columns_count": 3,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_dismissals",
+    "description": "Secure access to tbl opt dismissals data",
+    "columns_count": 2,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_documentfiletypes",
+    "description": "Secure access to tbl opt documentfiletypes data",
+    "columns_count": 8,
+    "type": "reference"
+  },
+  {
+    "name": "v_tbl_opt_documenttypes",
+    "description": "Secure access to tbl opt documenttypes data",
+    "columns_count": 4,
+    "type": "reference"
+  },
+  {
+    "name": "v_tbl_opt_dps_drugs",
+    "description": "Secure access to tbl opt dps drugs data",
+    "columns_count": 4,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_educations",
+    "description": "Secure access to tbl opt educations data",
+    "columns_count": 2,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_employed_pwd",
+    "description": "Secure access to tbl opt employed pwd data",
+    "columns_count": 3,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_ethnicity",
+    "description": "Secure access to tbl opt ethnicity data",
+    "columns_count": 1,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_eye_colors",
+    "description": "Secure access to tbl opt eye colors data",
+    "columns_count": 4,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_foot_wear_types",
+    "description": "Secure access to tbl opt foot wear types data",
+    "columns_count": 2,
+    "type": "reference"
+  },
+  {
+    "name": "v_tbl_opt_genders",
+    "description": "Secure access to tbl opt genders data",
+    "columns_count": 4,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_hair_colors",
+    "description": "Secure access to tbl opt hair colors data",
+    "columns_count": 4,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_hgn_estimated_angle",
+    "description": "Secure access to tbl opt hgn estimated angle data",
+    "columns_count": 5,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_injury",
+    "description": "Secure access to tbl opt injury data",
+    "columns_count": 2,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_integration_vendors",
+    "description": "Secure access to tbl opt integration vendors data",
+    "columns_count": 9,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_interview_questions",
+    "description": "Secure access to tbl opt interview questions data",
+    "columns_count": 4,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_intox_verifytemp",
+    "description": "Secure access to tbl opt intox verifytemp data",
+    "columns_count": 3,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_light_conditions",
+    "description": "Secure access to tbl opt light conditions data",
+    "columns_count": 2,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_mark43_lookup",
+    "description": "Secure access to tbl opt mark43 lookup data",
+    "columns_count": 8,
+    "type": "reference"
+  },
+  {
+    "name": "v_tbl_opt_more_less_intoxicated",
+    "description": "Secure access to tbl opt more less intoxicated data",
+    "columns_count": 2,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_ncic_colors",
+    "description": "Secure access to tbl opt ncic colors data",
+    "columns_count": 3,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_ncic_instructions",
+    "description": "Secure access to tbl opt ncic instructions data",
+    "columns_count": 4,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_ncic_labels",
+    "description": "Secure access to tbl opt ncic labels data",
+    "columns_count": 5,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_ncic_transport_make",
+    "description": "Secure access to tbl opt ncic transport make data",
+    "columns_count": 6,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_ncic_transport_mode",
+    "description": "Secure access to tbl opt ncic transport mode data",
+    "columns_count": 4,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_ncic_transport_type",
+    "description": "Secure access to tbl opt ncic transport type data",
+    "columns_count": 3,
+    "type": "reference"
+  },
+  {
+    "name": "v_tbl_opt_ncic_vehcile_style_types",
+    "description": "Secure access to tbl opt ncic vehcile style types data",
+    "columns_count": 5,
+    "type": "reference"
+  },
+  {
+    "name": "v_tbl_opt_ncic_vehicle_body_style",
+    "description": "Secure access to tbl opt ncic vehicle body style data",
+    "columns_count": 4,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_ncic_vehicle_model",
+    "description": "Secure access to tbl opt ncic vehicle model data",
+    "columns_count": 4,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_offense",
+    "description": "Secure access to tbl opt offense data",
+    "columns_count": 20,
+    "type": "primary"
+  },
+  {
+    "name": "v_tbl_opt_offense_types",
+    "description": "Secure access to tbl opt offense types data",
+    "columns_count": 3,
+    "type": "primary"
+  },
+  {
+    "name": "v_tbl_opt_operation_occupation",
+    "description": "Secure access to tbl opt operation occupation data",
+    "columns_count": 3,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_outcomes",
+    "description": "Secure access to tbl opt outcomes data",
+    "columns_count": 2,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_plea",
+    "description": "Secure access to tbl opt plea data",
+    "columns_count": 2,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_races",
+    "description": "Secure access to tbl opt races data",
+    "columns_count": 3,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_radar_types",
+    "description": "Secure access to tbl opt radar types data",
+    "columns_count": 3,
+    "type": "reference"
+  },
+  {
+    "name": "v_tbl_opt_reason_for_stop",
+    "description": "Secure access to tbl opt reason for stop data",
+    "columns_count": 7,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_road_conditions",
+    "description": "Secure access to tbl opt road conditions data",
+    "columns_count": 2,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_road_surface",
+    "description": "Secure access to tbl opt road surface data",
+    "columns_count": 2,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_skin_complexion",
+    "description": "Secure access to tbl opt skin complexion data",
+    "columns_count": 4,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_specimen_storage",
+    "description": "Secure access to tbl opt specimen storage data",
+    "columns_count": 3,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_specimensubmittedmethod",
+    "description": "Secure access to tbl opt specimensubmittedmethod data",
+    "columns_count": 3,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_states",
+    "description": "Secure access to tbl opt states data",
+    "columns_count": 4,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_status",
+    "description": "Secure access to tbl opt status data",
+    "columns_count": 2,
+    "type": "reference"
+  },
+  {
+    "name": "v_tbl_opt_step_dar_event_types",
+    "description": "Secure access to tbl opt step dar event types data",
+    "columns_count": 3,
+    "type": "reference"
+  },
+  {
+    "name": "v_tbl_opt_step_grant_type",
+    "description": "Secure access to tbl opt step grant type data",
+    "columns_count": 3,
+    "type": "reference"
+  },
+  {
+    "name": "v_tbl_opt_surfaces",
+    "description": "Secure access to tbl opt surfaces data",
+    "columns_count": 2,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_system_mode",
+    "description": "Secure access to tbl opt system mode data",
+    "columns_count": 6,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_system_mode_with_tbl_opt_ncic_transport_mode",
+    "description": "Joined view providing tbl opt system mode with tbl opt ncic transport mode with related data",
+    "columns_count": 10,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_tox_screen_result",
+    "description": "Secure access to tbl opt tox screen result data",
+    "columns_count": 4,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_tox_spec_types",
+    "description": "Secure access to tbl opt tox spec types data",
+    "columns_count": 3,
+    "type": "reference"
+  },
+  {
+    "name": "v_tbl_opt_violation",
+    "description": "Secure access to tbl opt violation data",
+    "columns_count": 8,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_water_surfaces",
+    "description": "Secure access to tbl opt water surfaces data",
+    "columns_count": 3,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_wave_height",
+    "description": "Secure access to tbl opt wave height data",
+    "columns_count": 4,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_wave_types",
+    "description": "Secure access to tbl opt wave types data",
+    "columns_count": 3,
+    "type": "reference"
+  },
+  {
+    "name": "v_tbl_opt_weather",
+    "description": "Secure access to tbl opt weather data",
+    "columns_count": 2,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_wind_speed",
+    "description": "Secure access to tbl opt wind speed data",
+    "columns_count": 3,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_opt_zones",
+    "description": "Secure access to tbl opt zones data",
+    "columns_count": 3,
+    "type": "supporting"
+  },
+  {
+    "name": "v_tbl_options_master",
+    "description": "Secure access to tbl options master data",
+    "columns_count": 18,
+    "type": "supporting"
+  },
+  {
+    "name": "v_vehicle_watercraft",
+    "description": "Secure access to vehicle watercraft data",
+    "columns_count": 8,
+    "type": "supporting"
+  },
+  {
+    "name": "v_vehicle_watercraft_owner",
+    "description": "Secure access to vehicle watercraft owner data",
+    "columns_count": 7,
+    "type": "supporting"
+  },
+  {
+    "name": "v_vehicle_watercraft_owner_with_casevehicles",
+    "description": "Joined view providing vehicle watercraft owner with casevehicles with related data",
+    "columns_count": 36,
+    "type": "primary"
+  },
+  {
+    "name": "v_vehicle_watercraft_with_casevehicles",
+    "description": "Joined view providing vehicle watercraft with casevehicles with related data",
+    "columns_count": 37,
+    "type": "primary"
+  },
+  {
+    "name": "v_witnesses",
+    "description": "Secure access to witnesses data",
+    "columns_count": 14,
+    "type": "supporting"
+  },
+  {
+    "name": "v_witnesses_with_caseheaders",
+    "description": "Joined view providing witnesses with caseheaders with related data",
+    "columns_count": 43,
+    "type": "primary"
+  }
+]

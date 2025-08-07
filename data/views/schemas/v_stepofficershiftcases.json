@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to stepofficershiftcases data",
+  "columns": [
+    "StepOfficerShiftCaseId",
+    "StepOfficerShiftId",
+    "CaseId",
+    "IsInsideZone"
+  ],
+  "column_info": [
+    {
+      "name": "StepOfficerShiftCaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "StepOfficerShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "IsInsideZone",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 45,
+  "has_data": true,
+  "column_count": 4
+}

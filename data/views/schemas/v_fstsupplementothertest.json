@@ -1,0 +1,270 @@
+{
+  "type": "simple",
+  "description": "Secure access to fstsupplementothertest data",
+  "columns": [
+    "OtherTestId",
+    "SupplementId",
+    "FingerCountGiven",
+    "FingerCountDesc",
+    "AlphabetTestGiven",
+    "AlphabetTestDesc",
+    "OtherTestDesc",
+    "FcSafety",
+    "ALetterStart",
+    "ALetterFinish",
+    "ASafety",
+    "StatedFingerCountInstruction",
+    "FCGaveInstruction",
+    "FCRefused",
+    "FCComplete",
+    "FCCompleteDesc",
+    "FCMiscounted",
+    "FCMiscountedComments",
+    "FCSliding",
+    "FCSlidingComment",
+    "FCNoSpeedUp",
+    "FCNoSpeedUpComments",
+    "FCImproperTouch",
+    "FCImproperTouchComments",
+    "FCImproperCount",
+    "FCImproperCountComments",
+    "StatedAlphabetTest",
+    "AlphabetTestGivenInstruction",
+    "AlphabetTestRefused",
+    "AlphabetTestComplete",
+    "AlphabetTestCompleteComments",
+    "AlphabetTestSang",
+    "AlphabetTestSangComments",
+    "AlphabetTestLetterRepeated",
+    "AlphabetTestLetterRepeatedComments",
+    "AlphabetTestHesitation",
+    "AlphabetTestHesitationComments"
+  ],
+  "column_info": [
+    {
+      "name": "OtherTestId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SupplementId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "FingerCountGiven",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FingerCountDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "AlphabetTestGiven",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OtherTestDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "FcSafety",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ALetterStart",
+      "type": "char",
+      "nullable": true,
+      "max_length": 1
+    },
+    {
+      "name": "ALetterFinish",
+      "type": "char",
+      "nullable": true,
+      "max_length": 1
+    },
+    {
+      "name": "ASafety",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StatedFingerCountInstruction",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCGaveInstruction",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCRefused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCComplete",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCCompleteDesc",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "FCMiscounted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCMiscountedComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "FCSliding",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCSlidingComment",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "FCNoSpeedUp",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCNoSpeedUpComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "FCImproperTouch",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCImproperTouchComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "FCImproperCount",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FCImproperCountComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "StatedAlphabetTest",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestGivenInstruction",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestRefused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestComplete",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestCompleteComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "AlphabetTestSang",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestSangComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "AlphabetTestLetterRepeated",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestLetterRepeatedComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "AlphabetTestHesitation",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlphabetTestHesitationComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    }
+  ],
+  "row_count": 24,
+  "has_data": true,
+  "column_count": 37
+}

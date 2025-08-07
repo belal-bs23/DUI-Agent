@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to casereviewhistory data",
+  "columns": [
+    "Id",
+    "CaseId",
+    "ReviewStatusId",
+    "ReviewBy"
+  ],
+  "column_info": [
+    {
+      "name": "Id",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": -1
+    },
+    {
+      "name": "ReviewStatusId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ReviewBy",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": -1
+    }
+  ],
+  "row_count": 133,
+  "has_data": true,
+  "column_count": 4
+}

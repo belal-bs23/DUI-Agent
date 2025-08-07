@@ -1,0 +1,88 @@
+{
+  "type": "analytical",
+  "description": "Secure access to duitoxilyzerreport data",
+  "columns": [
+    "ToxilyzerReportId",
+    "OfficerId",
+    "DefLastName",
+    "DefFirstName",
+    "DeptId",
+    "CaseId",
+    "Submitted",
+    "Active",
+    "DtCreated",
+    "CreatedBy",
+    "OldCaseToxId"
+  ],
+  "column_info": [
+    {
+      "name": "ToxilyzerReportId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OfficerId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefLastName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "DefFirstName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "DeptId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Submitted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DtCreated",
+      "type": "datetime",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 450
+    },
+    {
+      "name": "OldCaseToxId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 74,
+  "has_data": true,
+  "column_count": 11
+}

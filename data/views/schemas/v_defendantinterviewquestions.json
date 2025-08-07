@@ -1,0 +1,46 @@
+{
+  "type": "simple",
+  "description": "Secure access to defendantinterviewquestions data",
+  "columns": [
+    "DefendantInterviewQuestionId",
+    "DefendantInterviewId",
+    "InterviewQuestionId",
+    "Answer",
+    "OLD_CASE_QUESTION_ID"
+  ],
+  "column_info": [
+    {
+      "name": "DefendantInterviewQuestionId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DefendantInterviewId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "InterviewQuestionId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Answer",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OLD_CASE_QUESTION_ID",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 5121,
+  "has_data": true,
+  "column_count": 5
+}

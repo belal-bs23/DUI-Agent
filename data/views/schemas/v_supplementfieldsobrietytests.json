@@ -1,0 +1,123 @@
+{
+  "type": "simple",
+  "description": "Secure access to supplementfieldsobrietytests data",
+  "columns": [
+    "FieldSobrietyTestId",
+    "SupplementId",
+    "FSTGiven",
+    "WhyNotGivenFST",
+    "DefendantRefused",
+    "PhysicalInjuries",
+    "DefMoreThan65",
+    "TimeAshore",
+    "OnWater",
+    "SeatedFST",
+    "AttachNote",
+    "TimeStartedFST",
+    "WaterTestGiven",
+    "WhyNotWaterTest",
+    "PhysicalProblem",
+    "PhysicalProblemDesc"
+  ],
+  "column_info": [
+    {
+      "name": "FieldSobrietyTestId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SupplementId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "FSTGiven",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WhyNotGivenFST",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "DefendantRefused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PhysicalInjuries",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefMoreThan65",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TimeAshore",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OnWater",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SeatedFST",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AttachNote",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TimeStartedFST",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WaterTestGiven",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WhyNotWaterTest",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "PhysicalProblem",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PhysicalProblemDesc",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": -1
+    }
+  ],
+  "row_count": 38,
+  "has_data": true,
+  "column_count": 16
+}

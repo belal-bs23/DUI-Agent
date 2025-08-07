@@ -1,0 +1,25 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt outcomes data",
+  "columns": [
+    "OutcomeId",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "OutcomeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 5,
+  "has_data": true,
+  "column_count": 2
+}

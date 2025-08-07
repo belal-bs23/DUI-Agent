@@ -1,0 +1,109 @@
+{
+  "type": "analytical",
+  "description": "Secure access to duireportrequest data",
+  "columns": [
+    "DUIReportRequestId",
+    "CaseId",
+    "UserId",
+    "ReportData",
+    "ReportObject",
+    "ReportName",
+    "FileType",
+    "GeneratedReport",
+    "ModifiedReport",
+    "SigningRequest",
+    "IsSigned",
+    "LastModified",
+    "ReportFormId",
+    "IsLocked"
+  ],
+  "column_info": [
+    {
+      "name": "DUIReportRequestId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "UserId",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "ReportData",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "ReportObject",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "ReportName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "FileType",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "GeneratedReport",
+      "type": "varbinary",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "ModifiedReport",
+      "type": "varbinary",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "SigningRequest",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "IsSigned",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "LastModified",
+      "type": "datetime2",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ReportFormId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "IsLocked",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 69,
+  "has_data": true,
+  "column_count": 14
+}

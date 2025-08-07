@@ -1,0 +1,88 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing duicasenotetype with systempages with related data",
+  "columns": [
+    "DuiCaseNoteTypeId",
+    "DuiCasePageId",
+    "Section",
+    "Active",
+    "NoteOrder",
+    "SystemPages_SystemPageId",
+    "SystemPages_Title",
+    "SystemPages_PageName",
+    "SystemPages_Active",
+    "SystemPages_Created",
+    "SystemPages_OldSystemPageId"
+  ],
+  "column_info": [
+    {
+      "name": "DuiCaseNoteTypeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DuiCasePageId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Section",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "NoteOrder",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SystemPages_SystemPageId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SystemPages_Title",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 200
+    },
+    {
+      "name": "SystemPages_PageName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 200
+    },
+    {
+      "name": "SystemPages_Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SystemPages_Created",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SystemPages_OldSystemPageId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 65,
+  "has_data": true,
+  "column_count": 11
+}

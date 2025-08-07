@@ -1,0 +1,88 @@
+{
+  "type": "simple",
+  "description": "Secure access to systemmodecontrols data",
+  "columns": [
+    "SystemModeControlId",
+    "ModeId",
+    "PageId",
+    "ControlName",
+    "Label",
+    "Visible",
+    "Required",
+    "Enabled",
+    "Active",
+    "Created",
+    "OldSystemModeControlId"
+  ],
+  "column_info": [
+    {
+      "name": "SystemModeControlId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ModeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PageId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ControlName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 50
+    },
+    {
+      "name": "Label",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 300
+    },
+    {
+      "name": "Visible",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Required",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Enabled",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Created",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldSystemModeControlId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 383,
+  "has_data": true,
+  "column_count": 11
+}

@@ -1,0 +1,25 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt injury data",
+  "columns": [
+    "InjuryId",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "InjuryId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 7,
+  "has_data": true,
+  "column_count": 2
+}

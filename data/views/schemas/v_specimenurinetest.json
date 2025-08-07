@@ -1,0 +1,67 @@
+{
+  "type": "simple",
+  "description": "Secure access to specimenurinetest data",
+  "columns": [
+    "SpecimenUrineTestId",
+    "SpecimenReportId",
+    "UrineCollectedTime",
+    "WitnessedBy",
+    "Results",
+    "LabName",
+    "MoreLessIntoxId",
+    "ArchiveUrineBacL5"
+  ],
+  "column_info": [
+    {
+      "name": "SpecimenUrineTestId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReportId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "UrineCollectedTime",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WitnessedBy",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "Results",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "LabName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "MoreLessIntoxId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArchiveUrineBacL5",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    }
+  ],
+  "row_count": 77,
+  "has_data": true,
+  "column_count": 8
+}

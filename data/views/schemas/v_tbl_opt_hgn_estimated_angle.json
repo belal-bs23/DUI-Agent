@@ -1,0 +1,46 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt hgn estimated angle data",
+  "columns": [
+    "HgnEstimatedAngleId",
+    "EstimatedAngleDesc",
+    "Active",
+    "DisplayOrder",
+    "ShortName"
+  ],
+  "column_info": [
+    {
+      "name": "HgnEstimatedAngleId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "EstimatedAngleDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DisplayOrder",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ShortName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 15
+    }
+  ],
+  "row_count": 9,
+  "has_data": true,
+  "column_count": 5
+}

@@ -1,0 +1,235 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing evidencerecordings with physicalevidence with related data",
+  "columns": [
+    "EvidenceRecordingId",
+    "PhysicalEvidenceId",
+    "TimeBegan",
+    "TimeStop",
+    "OnBoatRecording",
+    "OnShoreRecording",
+    "OnBodyCameraRecording",
+    "IntoxicationInvestigation",
+    "FST",
+    "TransportToJail",
+    "OtherActions",
+    "NameOfOfficer",
+    "HasVideoTape",
+    "NoTapeExplain",
+    "EvVideoMade",
+    "EvVideoHgn",
+    "EvVideoWalkTurn",
+    "EvVideoLegStand",
+    "EvVideoDisposition",
+    "EvVideoCar",
+    "EvVideoStation",
+    "EvVideoOtherMade",
+    "PhysicalEvidence_PhysicalEvidenceId",
+    "PhysicalEvidence_CaseId",
+    "PhysicalEvidence_DispatchRecordingInclude",
+    "PhysicalEvidence_ExplainDispatchRecording",
+    "PhysicalEvidence_OtherPhysicalEvidence",
+    "PhysicalEvidence_HasVideoTape",
+    "PhysicalEvidence_NoTapeExplain",
+    "PhysicalEvidence_EvEvidenceDisposition",
+    "PhysicalEvidence_Ev911TapeDisposition",
+    "PhysicalEvidence_OldCaseID"
+  ],
+  "column_info": [
+    {
+      "name": "EvidenceRecordingId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "PhysicalEvidenceId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "TimeBegan",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TimeStop",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OnBoatRecording",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OnShoreRecording",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OnBodyCameraRecording",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "IntoxicationInvestigation",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FST",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TransportToJail",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OtherActions",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 250
+    },
+    {
+      "name": "NameOfOfficer",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "HasVideoTape",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "NoTapeExplain",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "EvVideoMade",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoHgn",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoWalkTurn",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoLegStand",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoDisposition",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "EvVideoCar",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoStation",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoOtherMade",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PhysicalEvidence_PhysicalEvidenceId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PhysicalEvidence_CaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PhysicalEvidence_DispatchRecordingInclude",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PhysicalEvidence_ExplainDispatchRecording",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "PhysicalEvidence_OtherPhysicalEvidence",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "PhysicalEvidence_HasVideoTape",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PhysicalEvidence_NoTapeExplain",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "PhysicalEvidence_EvEvidenceDisposition",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "PhysicalEvidence_Ev911TapeDisposition",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "PhysicalEvidence_OldCaseID",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 57,
+  "has_data": true,
+  "column_count": 32
+}

@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt bodywaters data",
+  "columns": [
+    "BodyOfWaterId",
+    "Code",
+    "BodyOfWaterDesc",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "BodyOfWaterId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Code",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "BodyOfWaterDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 250
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 3411,
+  "has_data": true,
+  "column_count": 4
+}

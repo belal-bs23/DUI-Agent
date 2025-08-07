@@ -1,0 +1,354 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing caseoffenses with caseheaders with related data",
+  "columns": [
+    "CaseOffenseId",
+    "Explanation",
+    "CaseId",
+    "OpenContainers",
+    "ContainersDesc",
+    "OffenseId",
+    "TimeOfOff",
+    "OffStateId",
+    "OffCountyId",
+    "OffLat",
+    "OffLng",
+    "TimeOfArrest",
+    "TimeOfBooking",
+    "TimeOfEventEnd",
+    "ArrestStateId",
+    "ArrestCountyId",
+    "ArrestLat",
+    "ArrestLng",
+    "OffenseAccidentId",
+    "OffenseInjuriesId",
+    "CaseHeaders_CaseId",
+    "CaseHeaders_UniqueId",
+    "CaseHeaders_StatusId",
+    "CaseHeaders_ModelId",
+    "CaseHeaders_LockedByOfficerId",
+    "CaseHeaders_ApprovedByOfficerId",
+    "CaseHeaders_OrganizationId",
+    "CaseHeaders_LocationId",
+    "CaseHeaders_District",
+    "CaseHeaders_Grid",
+    "CaseHeaders_Version",
+    "CaseHeaders_Active",
+    "CaseHeaders_ModeId",
+    "CaseHeaders_ProbableCause",
+    "CaseHeaders_IsTrainingPurpose",
+    "CaseHeaders_PaidTxDOT",
+    "CaseHeaders_StepGrantTypeId",
+    "CaseHeaders_CaseOwnerAgency",
+    "CaseHeaders_CaseOwnerBadge",
+    "CaseHeaders_CaseOwnerDepartmentId",
+    "CaseHeaders_CaseOwnerId",
+    "CaseHeaders_CaseOwnerName",
+    "CaseHeaders_CaseOwnerRank",
+    "CaseHeaders_TABC",
+    "CaseHeaders_AdditionalInformation",
+    "CaseHeaders_ActivityType",
+    "CaseHeaders_OfficerStepShiftId",
+    "CaseHeaders_StepZoneId",
+    "CaseHeaders_OldCaseID"
+  ],
+  "column_info": [
+    {
+      "name": "CaseOffenseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Explanation",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OpenContainers",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ContainersDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OffenseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TimeOfOff",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffStateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffCountyId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffLat",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "OffLng",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "TimeOfArrest",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TimeOfBooking",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TimeOfEventEnd",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArrestStateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArrestCountyId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArrestLat",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "ArrestLng",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "OffenseAccidentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffenseInjuriesId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_CaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_UniqueId",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "CaseHeaders_StatusId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_ModelId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_LockedByOfficerId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_ApprovedByOfficerId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_OrganizationId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_LocationId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_District",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "CaseHeaders_Grid",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "CaseHeaders_Version",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_ModeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_ProbableCause",
+      "type": "text",
+      "nullable": true,
+      "max_length": 2147483647
+    },
+    {
+      "name": "CaseHeaders_IsTrainingPurpose",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_PaidTxDOT",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_StepGrantTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_CaseOwnerAgency",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseHeaders_CaseOwnerBadge",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseHeaders_CaseOwnerDepartmentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_CaseOwnerId",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseHeaders_CaseOwnerName",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseHeaders_CaseOwnerRank",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseHeaders_TABC",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_AdditionalInformation",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "CaseHeaders_ActivityType",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_OfficerStepShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_StepZoneId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CaseHeaders_OldCaseID",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 440,
+  "has_data": true,
+  "column_count": 49
+}
