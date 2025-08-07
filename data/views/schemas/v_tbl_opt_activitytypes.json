@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt activitytypes data",
+  "columns": [
+    "ActivityTypeId",
+    "ActivityTypeDesc",
+    "FullCase",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "ActivityTypeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ActivityTypeDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "FullCase",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 4,
+  "has_data": true,
+  "column_count": 4
+}

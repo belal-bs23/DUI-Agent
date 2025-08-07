@@ -1,0 +1,144 @@
+{
+  "type": "simple",
+  "description": "Secure access to supplement data",
+  "columns": [
+    "SupplementID",
+    "CaseID",
+    "OfficerID",
+    "DeptID",
+    "IncludeFst",
+    "IncludeIntox",
+    "IncludeWitness",
+    "IncludeAttach",
+    "Supplement",
+    "IsTrainingPurpose",
+    "DtCreated",
+    "Submitted",
+    "CreatedBy",
+    "OldOfficerSupplementId",
+    "ArchiveAddendumId",
+    "ArchiveDefendantId_FK",
+    "ArchiveIntoxReportId",
+    "ArchiveOnWaterId",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "SupplementID",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseID",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerID",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DeptID",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "IncludeFst",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "IncludeIntox",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "IncludeWitness",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "IncludeAttach",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Supplement",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "IsTrainingPurpose",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DtCreated",
+      "type": "datetime",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Submitted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CreatedBy",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 256
+    },
+    {
+      "name": "OldOfficerSupplementId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArchiveAddendumId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArchiveDefendantId_FK",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArchiveIntoxReportId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArchiveOnWaterId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 74,
+  "has_data": true,
+  "column_count": 19
+}

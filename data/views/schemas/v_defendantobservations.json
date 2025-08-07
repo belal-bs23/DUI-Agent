@@ -1,0 +1,396 @@
+{
+  "type": "simple",
+  "description": "Secure access to defendantobservations data",
+  "columns": [
+    "DefendantObservationId",
+    "DefendantId",
+    "ClothingDisorderly",
+    "ClothingSoiled",
+    "ClothingStained",
+    "ClothingTorn",
+    "ClothingOrderly",
+    "BalanceSwaying",
+    "BalanceUnsteady",
+    "BalanceNeededSupport",
+    "BalanceFallingDown",
+    "BalanceNormal",
+    "WalkingStaggering",
+    "WalkingFalling",
+    "WalkingSwaying",
+    "WalkingHeavyFooted",
+    "WalkingNormal",
+    "SpeakingSlurred",
+    "SpeakingIncoherent",
+    "SpeakingThickTongued",
+    "SpeakingSlowMumbled",
+    "SpeakingNormal",
+    "EyesRed",
+    "EyesWatering",
+    "EyesDilated",
+    "EyesDroopyEyelids",
+    "EyesNormal",
+    "AlcoholTypeId",
+    "OdorStrength",
+    "AttitudeCooperative",
+    "AttitudeCombative",
+    "AttitudeIndifferent",
+    "AttitudeCocky",
+    "AttitudeApologetic",
+    "AttitudeUncooperative",
+    "UnusualActionsObserved",
+    "ImpairmentAlcoholDrug",
+    "DrugGroupCNSDepressant",
+    "DrugGroupCNSStimulant",
+    "DrugGroupHallucinogen",
+    "DrugGroupAnesthetics",
+    "DrugGroupAnalgesic",
+    "DrugGroupInhalant",
+    "DrugGroupCannabis",
+    "OtherObservationsComments",
+    "WhySuspected",
+    "DREPresent",
+    "DREPerformed",
+    "WhoPerformedDRE",
+    "DRENotPerformedExplaination",
+    "DREComments",
+    "OnsetDegree",
+    "DreOnly",
+    "DrugReasonSuspected",
+    "OLD_CASE_OBSERVATION_ID"
+  ],
+  "column_info": [
+    {
+      "name": "DefendantObservationId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DefendantId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ClothingDisorderly",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ClothingSoiled",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ClothingStained",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ClothingTorn",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ClothingOrderly",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BalanceSwaying",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BalanceUnsteady",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BalanceNeededSupport",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BalanceFallingDown",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "BalanceNormal",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WalkingStaggering",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WalkingFalling",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WalkingSwaying",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WalkingHeavyFooted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WalkingNormal",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpeakingSlurred",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpeakingIncoherent",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpeakingThickTongued",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpeakingSlowMumbled",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpeakingNormal",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EyesRed",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EyesWatering",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EyesDilated",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EyesDroopyEyelids",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EyesNormal",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AlcoholTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OdorStrength",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AttitudeCooperative",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AttitudeCombative",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AttitudeIndifferent",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AttitudeCocky",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AttitudeApologetic",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AttitudeUncooperative",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "UnusualActionsObserved",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "ImpairmentAlcoholDrug",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DrugGroupCNSDepressant",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DrugGroupCNSStimulant",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DrugGroupHallucinogen",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DrugGroupAnesthetics",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DrugGroupAnalgesic",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DrugGroupInhalant",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DrugGroupCannabis",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OtherObservationsComments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "WhySuspected",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "DREPresent",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DREPerformed",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WhoPerformedDRE",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "DRENotPerformedExplaination",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "DREComments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "OnsetDegree",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DreOnly",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DrugReasonSuspected",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "OLD_CASE_OBSERVATION_ID",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 268,
+  "has_data": true,
+  "column_count": 55
+}

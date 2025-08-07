@@ -1,0 +1,32 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt case outcome pleas data",
+  "columns": [
+    "CaseOutcomePleaId",
+    "PleaText",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "CaseOutcomePleaId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "PleaText",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 4,
+  "has_data": true,
+  "column_count": 3
+}

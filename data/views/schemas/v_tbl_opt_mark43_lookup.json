@@ -1,0 +1,67 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt mark43 lookup data",
+  "columns": [
+    "Mark43LookupId",
+    "Mark43AttributeType",
+    "Mark43Code",
+    "Mark43Desc",
+    "LeadrsId",
+    "In",
+    "Out",
+    "OrganizationId"
+  ],
+  "column_info": [
+    {
+      "name": "Mark43LookupId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Mark43AttributeType",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Mark43Code",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Mark43Desc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "LeadrsId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "In",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Out",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OrganizationId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 0,
+  "has_data": false,
+  "column_count": 8
+}

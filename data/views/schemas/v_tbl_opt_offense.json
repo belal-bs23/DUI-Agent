@@ -1,0 +1,151 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt offense data",
+  "columns": [
+    "OffenseId",
+    "OffenseCitation",
+    "OffenseClassification",
+    "OffenseCode",
+    "OffenseComplaintId",
+    "OffenseType",
+    "OffenseFelony",
+    "OffenseIntoxilizer",
+    "OffenseOpenContainer",
+    "OffensePriors",
+    "OffenseMinors",
+    "OffenseMinor",
+    "OffenseAssault",
+    "OffenseManslaughter",
+    "OffenseTitle",
+    "OffenseSubtitle",
+    "OffenseOrder",
+    "OffenseBwi",
+    "Mark43OffDesc",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "OffenseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OffenseCitation",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "OffenseClassification",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "OffenseCode",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "OffenseComplaintId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffenseType",
+      "type": "smallint",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OffenseFelony",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffenseIntoxilizer",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OffenseOpenContainer",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OffensePriors",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OffenseMinors",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OffenseMinor",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffenseAssault",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffenseManslaughter",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffenseTitle",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "OffenseSubtitle",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "OffenseOrder",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffenseBwi",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Mark43OffDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 200
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 47,
+  "has_data": true,
+  "column_count": 20
+}

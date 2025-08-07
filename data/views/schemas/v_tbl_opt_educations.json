@@ -1,0 +1,25 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt educations data",
+  "columns": [
+    "EducationId",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "EducationId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 12,
+  "has_data": true,
+  "column_count": 2
+}

@@ -1,0 +1,67 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt documentfiletypes data",
+  "columns": [
+    "FileTypeId",
+    "FileName",
+    "Extension",
+    "Icon",
+    "Image",
+    "MimeType",
+    "Active",
+    "Created"
+  ],
+  "column_info": [
+    {
+      "name": "FileTypeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "FileName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 150
+    },
+    {
+      "name": "Extension",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Icon",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 150
+    },
+    {
+      "name": "Image",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "MimeType",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Created",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 14,
+  "has_data": true,
+  "column_count": 8
+}

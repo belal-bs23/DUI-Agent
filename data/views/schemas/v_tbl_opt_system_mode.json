@@ -1,0 +1,53 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt system mode data",
+  "columns": [
+    "ModeId",
+    "ModeName",
+    "ModeOrder",
+    "OffenseTypeId",
+    "Active",
+    "NcicTransportModeId"
+  ],
+  "column_info": [
+    {
+      "name": "ModeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ModeName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "ModeOrder",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OffenseTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "NcicTransportModeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 10,
+  "has_data": true,
+  "column_count": 6
+}

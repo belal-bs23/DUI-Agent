@@ -1,0 +1,200 @@
+{
+  "type": "simple",
+  "description": "Secure access to fstsupplementonelegstandtest data",
+  "columns": [
+    "OneLegStandId",
+    "SupplementId",
+    "OneLegStandGiven",
+    "ReasonNotGiven",
+    "TestStopped",
+    "StatedOneLegStand",
+    "FootStoodOn",
+    "FootRaised",
+    "FootWearId",
+    "NotKeepBalance",
+    "KeepBalanceExplain",
+    "Sways",
+    "SwaysDesc",
+    "Hops",
+    "HopsDesc",
+    "PutsFootDown",
+    "PutsFootDownDesc",
+    "UseArmsToBalance",
+    "ArmsBalanceDesc",
+    "OneLegClues",
+    "Comments",
+    "OldOneLegStandId",
+    "UnderstoodComments",
+    "StoodOnComments",
+    "PhysicalInjuries",
+    "DescribeInjuries",
+    "DefMoreThan65"
+  ],
+  "column_info": [
+    {
+      "name": "OneLegStandId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SupplementId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OneLegStandGiven",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ReasonNotGiven",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "TestStopped",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StatedOneLegStand",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FootStoodOn",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1
+    },
+    {
+      "name": "FootRaised",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1
+    },
+    {
+      "name": "FootWearId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "NotKeepBalance",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "KeepBalanceExplain",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "Sways",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SwaysDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "Hops",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "HopsDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "PutsFootDown",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PutsFootDownDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "UseArmsToBalance",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArmsBalanceDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "OneLegClues",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Comments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OldOneLegStandId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "UnderstoodComments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "StoodOnComments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "PhysicalInjuries",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DescribeInjuries",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "DefMoreThan65",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 25,
+  "has_data": true,
+  "column_count": 27
+}

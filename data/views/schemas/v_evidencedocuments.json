@@ -1,0 +1,53 @@
+{
+  "type": "simple",
+  "description": "Secure access to evidencedocuments data",
+  "columns": [
+    "EvidenceDocumentId",
+    "CaseId",
+    "DocumentId",
+    "UploadedBy",
+    "Uploaded",
+    "DocumentTypeId"
+  ],
+  "column_info": [
+    {
+      "name": "EvidenceDocumentId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DocumentId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "UploadedBy",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 450
+    },
+    {
+      "name": "Uploaded",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DocumentTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 317,
+  "has_data": true,
+  "column_count": 6
+}

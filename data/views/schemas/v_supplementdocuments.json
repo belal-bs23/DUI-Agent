@@ -1,0 +1,53 @@
+{
+  "type": "simple",
+  "description": "Secure access to supplementdocuments data",
+  "columns": [
+    "SupplementDocumentsId",
+    "SupplementID",
+    "DocumentId",
+    "UploadedBy",
+    "Uploaded",
+    "DocumentTypeId"
+  ],
+  "column_info": [
+    {
+      "name": "SupplementDocumentsId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SupplementID",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DocumentId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "UploadedBy",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "Uploaded",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DocumentTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 224,
+  "has_data": true,
+  "column_count": 6
+}

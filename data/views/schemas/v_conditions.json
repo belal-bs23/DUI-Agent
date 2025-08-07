@@ -1,0 +1,200 @@
+{
+  "type": "simple",
+  "description": "Secure access to conditions data",
+  "columns": [
+    "ConditionId",
+    "CaseId",
+    "LightConditionId",
+    "WeatherId",
+    "SurfaceId",
+    "RoadConditionId",
+    "RoadSurfaceId",
+    "ZoneId",
+    "RoadMarked",
+    "Cause",
+    "SpeedAsFactor",
+    "ObservedSpeed",
+    "OfficerRadarTrained",
+    "RadarChecked",
+    "RadarTypeId",
+    "HowDefendantWasObserved",
+    "SuspectResistance",
+    "ResistanceVerbalThreat",
+    "ResistancePassive",
+    "ResistancePhysical",
+    "InjuryId",
+    "WaterSurfaceId",
+    "WindSpeedId",
+    "WaveHeightId",
+    "ResistanceNone",
+    "CondStopReason",
+    "OldCaseId"
+  ],
+  "column_info": [
+    {
+      "name": "ConditionId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "LightConditionId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WeatherId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SurfaceId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "RoadConditionId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "RoadSurfaceId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ZoneId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "RoadMarked",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Cause",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "SpeedAsFactor",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ObservedSpeed",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerRadarTrained",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "RadarChecked",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "RadarTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "HowDefendantWasObserved",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "SuspectResistance",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ResistanceVerbalThreat",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ResistancePassive",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ResistancePhysical",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "InjuryId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WaterSurfaceId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WindSpeedId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WaveHeightId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ResistanceNone",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CondStopReason",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OldCaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 339,
+  "has_data": true,
+  "column_count": 27
+}

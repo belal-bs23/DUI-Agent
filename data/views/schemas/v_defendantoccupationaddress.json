@@ -1,0 +1,25 @@
+{
+  "type": "simple",
+  "description": "Secure access to defendantoccupationaddress data",
+  "columns": [
+    "DefendantId",
+    "StateId"
+  ],
+  "column_info": [
+    {
+      "name": "DefendantId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "StateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 0,
+  "has_data": false,
+  "column_count": 2
+}

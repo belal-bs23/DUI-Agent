@@ -1,0 +1,81 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing stepzones with tbl opt step grant type with related data",
+  "columns": [
+    "StepZoneId",
+    "DepartmentId",
+    "LocationId",
+    "ZoneDesc",
+    "StepGrantTypeId",
+    "OldStepZoneId",
+    "CreatedBy",
+    "TBL_OPT_Step_Grant_Type_StepGrantTypeId",
+    "TBL_OPT_Step_Grant_Type_StepGrantTypeDesc",
+    "TBL_OPT_Step_Grant_Type_Active"
+  ],
+  "column_info": [
+    {
+      "name": "StepZoneId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DepartmentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "LocationId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ZoneDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 300
+    },
+    {
+      "name": "StepGrantTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldStepZoneId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CreatedBy",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "TBL_OPT_Step_Grant_Type_StepGrantTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TBL_OPT_Step_Grant_Type_StepGrantTypeDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "TBL_OPT_Step_Grant_Type_Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 25,
+  "has_data": true,
+  "column_count": 10
+}

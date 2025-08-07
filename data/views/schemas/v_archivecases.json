@@ -1,0 +1,221 @@
+{
+  "type": "simple",
+  "description": "Secure access to archivecases data",
+  "columns": [
+    "CaseId",
+    "OffenseBodyOfWaterId",
+    "CondWaveTypeId",
+    "EvVideoCar",
+    "EvVideoStation",
+    "EvVideoTimeStart",
+    "EvVideoTimeStop",
+    "OtherSobrietyTestGiven",
+    "AiDic2325",
+    "AiHandcuffs",
+    "AiBsSearchPrior",
+    "AiDefBelt",
+    "AiBsSearchAfter",
+    "AiBsContraband",
+    "CondConstructionZone",
+    "AiWeapSecure",
+    "SearchConducted",
+    "SearchConsent",
+    "SearchContraband",
+    "OffenseInventory",
+    "CondRaceBeforeStop",
+    "OffenseLocationBlock",
+    "OffenseArrestBlock",
+    "EvVideoOther",
+    "SearchContrabandResults",
+    "SearchResults",
+    "AiWeapSecureText",
+    "AiBsContrabandText",
+    "OldCaseId",
+    "Id"
+  ],
+  "column_info": [
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffenseBodyOfWaterId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CondWaveTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoCar",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoStation",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoTimeStart",
+      "type": "datetime",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "EvVideoTimeStop",
+      "type": "datetime",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OtherSobrietyTestGiven",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AiDic2325",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AiHandcuffs",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AiBsSearchPrior",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AiDefBelt",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AiBsSearchAfter",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AiBsContraband",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CondConstructionZone",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AiWeapSecure",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SearchConducted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SearchConsent",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SearchContraband",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffenseInventory",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CondRaceBeforeStop",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffenseLocationBlock",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "OffenseArrestBlock",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "EvVideoOther",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "SearchContrabandResults",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "SearchResults",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "AiWeapSecureText",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "AiBsContrabandText",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OldCaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Id",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 0,
+  "has_data": false,
+  "column_count": 30
+}

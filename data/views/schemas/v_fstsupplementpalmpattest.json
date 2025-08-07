@@ -1,0 +1,340 @@
+{
+  "type": "simple",
+  "description": "Secure access to fstsupplementpalmpattest data",
+  "columns": [
+    "PalmPatTestId",
+    "SupplementId",
+    "TestGiven",
+    "ReasonNotGiven",
+    "StoppedTest",
+    "StatedPalmPat",
+    "UnableToFollow",
+    "UnableToFollowDesc",
+    "StartWrongTime",
+    "StartWrongTimeDesc",
+    "NotCounted",
+    "NotCountedDesc",
+    "RolledHands",
+    "RolledHandDesc",
+    "DoublePat",
+    "DoublePatDesc",
+    "ChoppedPat",
+    "ChoppedPatDesc",
+    "OtherImproperPat",
+    "OtherImproperPatDesc",
+    "NotIncreaseSpeed",
+    "NotIncreaseSpeedDesc",
+    "RotatedHands",
+    "RotatedHandsDesc",
+    "StoppedBeforeTold",
+    "StoppedBeforeToldDesc",
+    "TotalPalmPatClues",
+    "Comments",
+    "PalmPat",
+    "PpUnderstoodInstr",
+    "ArchivePpRefused",
+    "PpNoSpeedup",
+    "PpNoSpeedupCom",
+    "PpUnable",
+    "PpUnableCom",
+    "PpImproper",
+    "PpImproperCom",
+    "PpOtherOb",
+    "PpSafety",
+    "OldPalmPatTestId",
+    "GivenPalmPatInstruction",
+    "PalmPatCompleted",
+    "PalmPatCompletedComments",
+    "PalmPatSliding",
+    "PalmPatSlidingComments",
+    "PalmPatHesitation",
+    "PalmPatHesitationComments"
+  ],
+  "column_info": [
+    {
+      "name": "PalmPatTestId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SupplementId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "TestGiven",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ReasonNotGiven",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "StoppedTest",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StatedPalmPat",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "UnableToFollow",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "UnableToFollowDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "StartWrongTime",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StartWrongTimeDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "NotCounted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "NotCountedDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "RolledHands",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "RolledHandDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "DoublePat",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DoublePatDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "ChoppedPat",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ChoppedPatDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OtherImproperPat",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OtherImproperPatDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "NotIncreaseSpeed",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "NotIncreaseSpeedDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "RotatedHands",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "RotatedHandsDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "StoppedBeforeTold",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StoppedBeforeToldDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "TotalPalmPatClues",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Comments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "PalmPat",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PpUnderstoodInstr",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArchivePpRefused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PpNoSpeedup",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PpNoSpeedupCom",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "PpUnable",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PpUnableCom",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "PpImproper",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PpImproperCom",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "PpOtherOb",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "PpSafety",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldPalmPatTestId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "GivenPalmPatInstruction",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PalmPatCompleted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PalmPatCompletedComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "PalmPatSliding",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PalmPatSlidingComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "PalmPatHesitation",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PalmPatHesitationComments",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 1000
+    }
+  ],
+  "row_count": 20,
+  "has_data": true,
+  "column_count": 47
+}

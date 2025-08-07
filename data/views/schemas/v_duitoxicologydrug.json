@@ -1,0 +1,60 @@
+{
+  "type": "simple",
+  "description": "Secure access to duitoxicologydrug data",
+  "columns": [
+    "DuiCaseToxDrugId",
+    "IntoxilyzerReportId",
+    "DuiCaseToxSpecId",
+    "DpsDrugListId",
+    "DrugResult",
+    "DrugMeasurement",
+    "OldToxicologyDrugId"
+  ],
+  "column_info": [
+    {
+      "name": "DuiCaseToxDrugId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "IntoxilyzerReportId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DuiCaseToxSpecId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DpsDrugListId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DrugResult",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "DrugMeasurement",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldToxicologyDrugId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 87,
+  "has_data": true,
+  "column_count": 7
+}

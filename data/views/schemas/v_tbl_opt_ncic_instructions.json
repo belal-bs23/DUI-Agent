@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt ncic instructions data",
+  "columns": [
+    "NcicInstructionId",
+    "TransportModeId",
+    "Instruction",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "NcicInstructionId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "TransportModeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Instruction",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 3,
+  "has_data": true,
+  "column_count": 4
+}

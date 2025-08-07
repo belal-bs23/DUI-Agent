@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt tox screen result data",
+  "columns": [
+    "ToxScreenResultId",
+    "Result",
+    "DisplayTextbox",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "ToxScreenResultId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Result",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "DisplayTextbox",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 17,
+  "has_data": true,
+  "column_count": 4
+}

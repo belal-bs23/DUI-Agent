@@ -1,0 +1,151 @@
+{
+  "type": "simple",
+  "description": "Secure access to defendantadditionalinfo data",
+  "columns": [
+    "DefendantAdditionalInfoId",
+    "DefendantId",
+    "AdditionalInformation",
+    "AccidentReport",
+    "ImpoundSheet",
+    "SFSTCheckList",
+    "DIC23",
+    "DIC24",
+    "DIC25",
+    "OfficerSupplement",
+    "Intoxilyzer",
+    "SearchWarrant",
+    "Other",
+    "OtherDesc",
+    "DefendantInfo",
+    "OffenseInfo",
+    "Observations",
+    "FSTs",
+    "SpecimenInfo",
+    "PassengerInfo"
+  ],
+  "column_info": [
+    {
+      "name": "DefendantAdditionalInfoId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DefendantId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "AdditionalInformation",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "AccidentReport",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ImpoundSheet",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SFSTCheckList",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DIC23",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DIC24",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DIC25",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OfficerSupplement",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Intoxilyzer",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SearchWarrant",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Other",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OtherDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1023
+    },
+    {
+      "name": "DefendantInfo",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffenseInfo",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Observations",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FSTs",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenInfo",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PassengerInfo",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 123,
+  "has_data": true,
+  "column_count": 20
+}

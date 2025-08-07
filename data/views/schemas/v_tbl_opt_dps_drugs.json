@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt dps drugs data",
+  "columns": [
+    "DpsDrugListId",
+    "DpsDrug",
+    "DpsDrugCategory",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "DpsDrugListId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DpsDrug",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "DpsDrugCategory",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 164,
+  "has_data": true,
+  "column_count": 4
+}

@@ -1,0 +1,53 @@
+{
+  "type": "simple",
+  "description": "Secure access to systempages data",
+  "columns": [
+    "SystemPageId",
+    "Title",
+    "PageName",
+    "Active",
+    "Created",
+    "OldSystemPageId"
+  ],
+  "column_info": [
+    {
+      "name": "SystemPageId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Title",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 200
+    },
+    {
+      "name": "PageName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 200
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Created",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldSystemPageId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 16,
+  "has_data": true,
+  "column_count": 6
+}

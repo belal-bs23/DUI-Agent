@@ -1,0 +1,46 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt ncic vehcile style types data",
+  "columns": [
+    "VehicleStyleId",
+    "TransportTypeId",
+    "NcicCode",
+    "Comments",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "VehicleStyleId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "TransportTypeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "NcicCode",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "Comments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 250
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 185,
+  "has_data": true,
+  "column_count": 5
+}

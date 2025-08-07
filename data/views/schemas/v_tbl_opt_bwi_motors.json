@@ -1,0 +1,32 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt bwi motors data",
+  "columns": [
+    "BwiMotorId",
+    "BwiMotorDesc",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "BwiMotorId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "BwiMotorDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 4,
+  "has_data": true,
+  "column_count": 3
+}

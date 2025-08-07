@@ -1,0 +1,242 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing conditionreasonforstop with conditions with related data",
+  "columns": [
+    "ConditionReasonForStopId",
+    "ConditionId",
+    "ReasonForStopId",
+    "ReasonForStopText",
+    "Checked",
+    "OldCaseReasonForStopId",
+    "Conditions_ConditionId",
+    "Conditions_CaseId",
+    "Conditions_LightConditionId",
+    "Conditions_WeatherId",
+    "Conditions_SurfaceId",
+    "Conditions_RoadConditionId",
+    "Conditions_RoadSurfaceId",
+    "Conditions_ZoneId",
+    "Conditions_RoadMarked",
+    "Conditions_Cause",
+    "Conditions_SpeedAsFactor",
+    "Conditions_ObservedSpeed",
+    "Conditions_OfficerRadarTrained",
+    "Conditions_RadarChecked",
+    "Conditions_RadarTypeId",
+    "Conditions_HowDefendantWasObserved",
+    "Conditions_SuspectResistance",
+    "Conditions_ResistanceVerbalThreat",
+    "Conditions_ResistancePassive",
+    "Conditions_ResistancePhysical",
+    "Conditions_InjuryId",
+    "Conditions_WaterSurfaceId",
+    "Conditions_WindSpeedId",
+    "Conditions_WaveHeightId",
+    "Conditions_ResistanceNone",
+    "Conditions_CondStopReason",
+    "Conditions_OldCaseId"
+  ],
+  "column_info": [
+    {
+      "name": "ConditionReasonForStopId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ConditionId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ReasonForStopId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ReasonForStopText",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "Checked",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OldCaseReasonForStopId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_ConditionId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_CaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_LightConditionId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_WeatherId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_SurfaceId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_RoadConditionId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_RoadSurfaceId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_ZoneId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_RoadMarked",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_Cause",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "Conditions_SpeedAsFactor",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_ObservedSpeed",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_OfficerRadarTrained",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_RadarChecked",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_RadarTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_HowDefendantWasObserved",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "Conditions_SuspectResistance",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_ResistanceVerbalThreat",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_ResistancePassive",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_ResistancePhysical",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_InjuryId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_WaterSurfaceId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_WindSpeedId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_WaveHeightId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_ResistanceNone",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Conditions_CondStopReason",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "Conditions_OldCaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 1555,
+  "has_data": true,
+  "column_count": 33
+}

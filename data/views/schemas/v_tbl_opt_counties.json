@@ -1,0 +1,32 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt counties data",
+  "columns": [
+    "CountyId",
+    "CountyName",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "CountyId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CountyName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 100
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 264,
+  "has_data": true,
+  "column_count": 3
+}

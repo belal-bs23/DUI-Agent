@@ -1,0 +1,130 @@
+{
+  "type": "simple",
+  "description": "Secure access to fieldsobrietytests data",
+  "columns": [
+    "FieldSobrietyTestId",
+    "CaseId",
+    "FSTGiven",
+    "WhyNotGivenFST",
+    "DefendantRefused",
+    "PhysicalInjuries",
+    "DefMoreThan65",
+    "TimeAshore",
+    "OnWater",
+    "SeatedFST",
+    "AttachNote",
+    "TimeStartedFST",
+    "WaterTestGiven",
+    "WhyNotWaterTest",
+    "PhysicalProblem",
+    "PhysicalProblemDesc",
+    "OldCaseId"
+  ],
+  "column_info": [
+    {
+      "name": "FieldSobrietyTestId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "FSTGiven",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WhyNotGivenFST",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "DefendantRefused",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PhysicalInjuries",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefMoreThan65",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TimeAshore",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OnWater",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SeatedFST",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "AttachNote",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TimeStartedFST",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WaterTestGiven",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "WhyNotWaterTest",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "PhysicalProblem",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "PhysicalProblemDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "OldCaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 255,
+  "has_data": true,
+  "column_count": 17
+}

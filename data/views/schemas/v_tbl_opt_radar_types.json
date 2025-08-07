@@ -1,0 +1,32 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt radar types data",
+  "columns": [
+    "RadarTypeId",
+    "Active",
+    "RadarInfoShown"
+  ],
+  "column_info": [
+    {
+      "name": "RadarTypeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "RadarInfoShown",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 6,
+  "has_data": true,
+  "column_count": 3
+}

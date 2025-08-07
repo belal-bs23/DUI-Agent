@@ -1,0 +1,81 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing tbl opt system mode with tbl opt ncic transport mode with related data",
+  "columns": [
+    "ModeId",
+    "ModeName",
+    "ModeOrder",
+    "OffenseTypeId",
+    "Active",
+    "NcicTransportModeId",
+    "TBL_OPT_NCIC_Transport_Mode_NcicTransportModeId",
+    "TBL_OPT_NCIC_Transport_Mode_Comments",
+    "TBL_OPT_NCIC_Transport_Mode_Active",
+    "TBL_OPT_NCIC_Transport_Mode_ModeId"
+  ],
+  "column_info": [
+    {
+      "name": "ModeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ModeName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "ModeOrder",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OffenseTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "NcicTransportModeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TBL_OPT_NCIC_Transport_Mode_NcicTransportModeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TBL_OPT_NCIC_Transport_Mode_Comments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 250
+    },
+    {
+      "name": "TBL_OPT_NCIC_Transport_Mode_Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TBL_OPT_NCIC_Transport_Mode_ModeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 9,
+  "has_data": true,
+  "column_count": 10
+}

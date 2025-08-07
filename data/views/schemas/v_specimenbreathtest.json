@@ -1,0 +1,123 @@
+{
+  "type": "simple",
+  "description": "Secure access to specimenbreathtest data",
+  "columns": [
+    "SpecimenBreathTestId",
+    "SpecimenReportId",
+    "WaitingPeriodTime",
+    "VerifyTempId",
+    "SubjectComments",
+    "BreathIntoxOperator",
+    "OperatorName",
+    "OperatorAgency",
+    "Result1Time",
+    "Result2Time",
+    "MoreLessIntoxId",
+    "ArchiveResult1",
+    "ArchiveResult2",
+    "ArchiveOperatorOccupationId",
+    "ArchiveMoreLessIntoxId",
+    "ArchiveDic24OnVideo"
+  ],
+  "column_info": [
+    {
+      "name": "SpecimenBreathTestId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SpecimenReportId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "WaitingPeriodTime",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "VerifyTempId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SubjectComments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "BreathIntoxOperator",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OperatorName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "OperatorAgency",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Result1Time",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Result2Time",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MoreLessIntoxId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArchiveResult1",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "ArchiveResult2",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "ArchiveOperatorOccupationId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArchiveMoreLessIntoxId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArchiveDic24OnVideo",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 109,
+  "has_data": true,
+  "column_count": 16
+}

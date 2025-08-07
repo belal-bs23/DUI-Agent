@@ -1,0 +1,137 @@
+{
+  "type": "simple",
+  "description": "Secure access to defendantinterview data",
+  "columns": [
+    "DefendantInterviewId",
+    "DefendantId",
+    "MirandaWarningRead",
+    "MirandaInEnglish",
+    "MirandaInSpanish",
+    "StatedUnderstood",
+    "ReadBy",
+    "TimeRead",
+    "Comments",
+    "AskOnVideo",
+    "DefendantSpeech",
+    "DoNotAskQuestion",
+    "DoNotAskQuestionForLanguage",
+    "Interviewer",
+    "InterviewerId",
+    "RefuseToAnswer",
+    "UnusualActions",
+    "TimeOfInterview"
+  ],
+  "column_info": [
+    {
+      "name": "DefendantInterviewId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DefendantId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "MirandaWarningRead",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MirandaInEnglish",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "MirandaInSpanish",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StatedUnderstood",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ReadBy",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 255
+    },
+    {
+      "name": "TimeRead",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 5
+    },
+    {
+      "name": "Comments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "AskOnVideo",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DefendantSpeech",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "DoNotAskQuestion",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DoNotAskQuestionForLanguage",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Interviewer",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "InterviewerId",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "RefuseToAnswer",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "UnusualActions",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "TimeOfInterview",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 5
+    }
+  ],
+  "row_count": 169,
+  "has_data": true,
+  "column_count": 18
+}

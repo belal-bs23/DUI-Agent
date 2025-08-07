@@ -1,0 +1,60 @@
+{
+  "type": "simple",
+  "description": "Secure access to caseviolations data",
+  "columns": [
+    "CaseViolationId",
+    "CaseId",
+    "ViolationId",
+    "IsCitation",
+    "IsWarning",
+    "IsArrest",
+    "IsOther"
+  ],
+  "column_info": [
+    {
+      "name": "CaseViolationId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ViolationId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "IsCitation",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "IsWarning",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "IsArrest",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "IsOther",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 651,
+  "has_data": true,
+  "column_count": 7
+}

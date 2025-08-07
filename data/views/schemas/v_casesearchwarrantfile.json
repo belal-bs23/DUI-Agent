@@ -1,0 +1,221 @@
+{
+  "type": "simple",
+  "description": "Secure access to casesearchwarrantfile data",
+  "columns": [
+    "SearchWarrantFileId",
+    "SearchWarrantId",
+    "ReportName",
+    "OrigFile",
+    "OffSignLocX",
+    "OffSignLocY",
+    "SecOffSignLocX",
+    "SecOffSignLocY",
+    "JudSignLocX",
+    "JudSignLocY",
+    "OffSign",
+    "FileSignedByOff",
+    "SecOffSign",
+    "FileSignedBySecOff",
+    "JudSign",
+    "FinalSigned",
+    "FinalPdf",
+    "OffAccepted",
+    "OffRejected",
+    "OffNoSign",
+    "SecOffAccepted",
+    "SecOffRejected",
+    "SecOffNoSign",
+    "JudAccepted",
+    "JudRejected",
+    "JudNoSign",
+    "NoReview",
+    "OffInstructions",
+    "SecOffInstructions",
+    "OldCaseSearchWarrantFileId"
+  ],
+  "column_info": [
+    {
+      "name": "SearchWarrantFileId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SearchWarrantId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ReportName",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "OrigFile",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "OffSignLocX",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffSignLocY",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SecOffSignLocX",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SecOffSignLocY",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "JudSignLocX",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "JudSignLocY",
+      "type": "nchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "OffSign",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "FileSignedByOff",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "SecOffSign",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "FileSignedBySecOff",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "JudSign",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "FinalSigned",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "FinalPdf",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "OffAccepted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffRejected",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffNoSign",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SecOffAccepted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SecOffRejected",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SecOffNoSign",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "JudAccepted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "JudRejected",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "JudNoSign",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "NoReview",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OffInstructions",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "SecOffInstructions",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "OldCaseSearchWarrantFileId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 0,
+  "has_data": false,
+  "column_count": 30
+}

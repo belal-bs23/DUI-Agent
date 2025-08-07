@@ -1,0 +1,151 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing documents with tbl opt documentfiletypes with related data",
+  "columns": [
+    "DocumentId",
+    "DocumentTypeId",
+    "FileTypeId",
+    "DocumentName",
+    "OriginalFileName",
+    "PhysicalFileName",
+    "Active",
+    "Created",
+    "CreatedBy",
+    "ObjectId",
+    "ObjectTypeId",
+    "OldDocumentId",
+    "TBL_OPT_DocumentFileTypes_FileTypeId",
+    "TBL_OPT_DocumentFileTypes_FileName",
+    "TBL_OPT_DocumentFileTypes_Extension",
+    "TBL_OPT_DocumentFileTypes_Icon",
+    "TBL_OPT_DocumentFileTypes_Image",
+    "TBL_OPT_DocumentFileTypes_MimeType",
+    "TBL_OPT_DocumentFileTypes_Active",
+    "TBL_OPT_DocumentFileTypes_Created"
+  ],
+  "column_info": [
+    {
+      "name": "DocumentId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DocumentTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "FileTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DocumentName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": -1
+    },
+    {
+      "name": "OriginalFileName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 255
+    },
+    {
+      "name": "PhysicalFileName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 255
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Created",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 450
+    },
+    {
+      "name": "ObjectId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ObjectTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldDocumentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TBL_OPT_DocumentFileTypes_FileTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TBL_OPT_DocumentFileTypes_FileName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 150
+    },
+    {
+      "name": "TBL_OPT_DocumentFileTypes_Extension",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "TBL_OPT_DocumentFileTypes_Icon",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 150
+    },
+    {
+      "name": "TBL_OPT_DocumentFileTypes_Image",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TBL_OPT_DocumentFileTypes_MimeType",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "TBL_OPT_DocumentFileTypes_Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TBL_OPT_DocumentFileTypes_Created",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 638,
+  "has_data": true,
+  "column_count": 20
+}

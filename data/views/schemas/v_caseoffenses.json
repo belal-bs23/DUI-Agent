@@ -1,0 +1,151 @@
+{
+  "type": "simple",
+  "description": "Secure access to caseoffenses data",
+  "columns": [
+    "CaseOffenseId",
+    "Explanation",
+    "CaseId",
+    "OpenContainers",
+    "ContainersDesc",
+    "OffenseId",
+    "TimeOfOff",
+    "OffStateId",
+    "OffCountyId",
+    "OffLat",
+    "OffLng",
+    "TimeOfArrest",
+    "TimeOfBooking",
+    "TimeOfEventEnd",
+    "ArrestStateId",
+    "ArrestCountyId",
+    "ArrestLat",
+    "ArrestLng",
+    "OffenseAccidentId",
+    "OffenseInjuriesId"
+  ],
+  "column_info": [
+    {
+      "name": "CaseOffenseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Explanation",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 500
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OpenContainers",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ContainersDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "OffenseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TimeOfOff",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffStateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffCountyId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffLat",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "OffLng",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "TimeOfArrest",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TimeOfBooking",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TimeOfEventEnd",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArrestStateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArrestCountyId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ArrestLat",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "ArrestLng",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "OffenseAccidentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OffenseInjuriesId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 440,
+  "has_data": true,
+  "column_count": 20
+}

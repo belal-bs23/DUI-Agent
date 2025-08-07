@@ -1,0 +1,32 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt case outcome dismissals data",
+  "columns": [
+    "CaseOutcomeDismissalId",
+    "DismissalText",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "CaseOutcomeDismissalId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DismissalText",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 4,
+  "has_data": true,
+  "column_count": 3
+}

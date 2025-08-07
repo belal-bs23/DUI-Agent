@@ -1,0 +1,200 @@
+{
+  "type": "simple",
+  "description": "Secure access to casesearchwarrant data",
+  "columns": [
+    "SearchWarrantId",
+    "CaseId",
+    "PassKey",
+    "Closed",
+    "OffAccepted",
+    "SecOffAccepted",
+    "JudgeAccepted",
+    "Rejected",
+    "SecOffFirstname",
+    "SecOffLastname",
+    "SecOffBadgeNum",
+    "SecOffPid",
+    "SecOffAgency",
+    "SecOffIsOtherCounty",
+    "SecOffOtherCounty",
+    "SecOffRemote",
+    "SecOffPassKey",
+    "JudgeName",
+    "JudgeCourt",
+    "JudgeCounty",
+    "JudgeRecNo",
+    "SecOffIsJudge",
+    "SecOffJudgeName",
+    "SecOffJudgeCourt",
+    "SecOffJudgeId",
+    "JudgeId",
+    "OldSearchWarrantId"
+  ],
+  "column_info": [
+    {
+      "name": "SearchWarrantId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "PassKey",
+      "type": "varchar",
+      "nullable": false,
+      "max_length": 10
+    },
+    {
+      "name": "Closed",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OffAccepted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SecOffAccepted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "JudgeAccepted",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Rejected",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SecOffFirstname",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "SecOffLastname",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "SecOffBadgeNum",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 20
+    },
+    {
+      "name": "SecOffPid",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 20
+    },
+    {
+      "name": "SecOffAgency",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "SecOffIsOtherCounty",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SecOffOtherCounty",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "SecOffRemote",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SecOffPassKey",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "JudgeName",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "JudgeCourt",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "JudgeCounty",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "JudgeRecNo",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "SecOffIsJudge",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "SecOffJudgeName",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "SecOffJudgeCourt",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "SecOffJudgeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "JudgeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldSearchWarrantId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 0,
+  "has_data": false,
+  "column_count": 27
+}

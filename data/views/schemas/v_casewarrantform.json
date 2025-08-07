@@ -1,0 +1,46 @@
+{
+  "type": "simple",
+  "description": "Secure access to casewarrantform data",
+  "columns": [
+    "WarrantFormId",
+    "CaseId",
+    "FormName",
+    "DisplayName",
+    "Form"
+  ],
+  "column_info": [
+    {
+      "name": "WarrantFormId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "FormName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "DisplayName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Form",
+      "type": "varbinary",
+      "nullable": false,
+      "max_length": -1
+    }
+  ],
+  "row_count": 128,
+  "has_data": true,
+  "column_count": 5
+}

@@ -1,0 +1,95 @@
+{
+  "type": "simple",
+  "description": "Secure access to questionforai data",
+  "columns": [
+    "Id",
+    "Section",
+    "TableName",
+    "ColumnName",
+    "ColumnType",
+    "ReqGen",
+    "ReqCheck",
+    "LookUpTable",
+    "LookUpColumn",
+    "LookUpRelationColumn",
+    "Status",
+    "Question"
+  ],
+  "column_info": [
+    {
+      "name": "Id",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Section",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "TableName",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "ColumnName",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "ColumnType",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "ReqGen",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ReqCheck",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "LookUpTable",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "LookUpColumn",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "LookUpRelationColumn",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "Status",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Question",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    }
+  ],
+  "row_count": 141,
+  "has_data": true,
+  "column_count": 12
+}

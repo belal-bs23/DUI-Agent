@@ -1,0 +1,46 @@
+{
+  "type": "analytical",
+  "description": "Secure access to supplementintoxilyzerreport data",
+  "columns": [
+    "IntoxReportId",
+    "SupplementId",
+    "Result1Num",
+    "LabToxicologyResults",
+    "IsAttachment"
+  ],
+  "column_info": [
+    {
+      "name": "IntoxReportId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SupplementId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Result1Num",
+      "type": "decimal",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "LabToxicologyResults",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "IsAttachment",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 74,
+  "has_data": true,
+  "column_count": 5
+}

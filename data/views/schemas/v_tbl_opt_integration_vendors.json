@@ -1,0 +1,74 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt integration vendors data",
+  "columns": [
+    "VendorId",
+    "VendorName",
+    "VendorSystemName",
+    "Active",
+    "VendorGraphicUrl",
+    "VendorXmlVerbiage",
+    "VendorPdfVerbiage",
+    "VendorXmlButtonText",
+    "VendorPdfButtonText"
+  ],
+  "column_info": [
+    {
+      "name": "VendorId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "VendorName",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "VendorSystemName",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "VendorGraphicUrl",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 255
+    },
+    {
+      "name": "VendorXmlVerbiage",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "VendorPdfVerbiage",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "VendorXmlButtonText",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "VendorPdfButtonText",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    }
+  ],
+  "row_count": 6,
+  "has_data": true,
+  "column_count": 9
+}

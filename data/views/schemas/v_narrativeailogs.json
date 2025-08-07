@@ -1,0 +1,60 @@
+{
+  "type": "simple",
+  "description": "Secure access to narrativeailogs data",
+  "columns": [
+    "Id",
+    "CaseId",
+    "UserId",
+    "GptVersion",
+    "Response1",
+    "Response2",
+    "Response3"
+  ],
+  "column_info": [
+    {
+      "name": "Id",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 450
+    },
+    {
+      "name": "UserId",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 450
+    },
+    {
+      "name": "GptVersion",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Response1",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "Response2",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "Response3",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    }
+  ],
+  "row_count": 113,
+  "has_data": true,
+  "column_count": 7
+}

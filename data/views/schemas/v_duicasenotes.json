@@ -1,0 +1,46 @@
+{
+  "type": "simple",
+  "description": "Secure access to duicasenotes data",
+  "columns": [
+    "DuiCaseNoteId",
+    "DuiCaseId",
+    "DuiCaseNoteTypeId",
+    "ParentId",
+    "CreatedById"
+  ],
+  "column_info": [
+    {
+      "name": "DuiCaseNoteId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DuiCaseId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "DuiCaseNoteTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ParentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CreatedById",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    }
+  ],
+  "row_count": 36,
+  "has_data": true,
+  "column_count": 5
+}

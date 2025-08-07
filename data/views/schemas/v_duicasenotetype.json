@@ -1,0 +1,46 @@
+{
+  "type": "simple",
+  "description": "Secure access to duicasenotetype data",
+  "columns": [
+    "DuiCaseNoteTypeId",
+    "DuiCasePageId",
+    "Section",
+    "Active",
+    "NoteOrder"
+  ],
+  "column_info": [
+    {
+      "name": "DuiCaseNoteTypeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DuiCasePageId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Section",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "NoteOrder",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 65,
+  "has_data": true,
+  "column_count": 5
+}

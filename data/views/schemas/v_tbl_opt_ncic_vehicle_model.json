@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt ncic vehicle model data",
+  "columns": [
+    "NcicVehicleModelId",
+    "MakeId",
+    "NcicCode",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "NcicVehicleModelId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "MakeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "NcicCode",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 3054,
+  "has_data": true,
+  "column_count": 4
+}

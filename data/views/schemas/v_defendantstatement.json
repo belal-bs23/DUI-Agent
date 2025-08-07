@@ -1,0 +1,109 @@
+{
+  "type": "simple",
+  "description": "Secure access to defendantstatement data",
+  "columns": [
+    "DefendantId",
+    "LeaveBusinessServedAlcohol",
+    "NameOfBusiness",
+    "WhoObservedDrinking",
+    "Under21AlcoholConsumeLocation",
+    "StateId",
+    "CountyId",
+    "Lat",
+    "Lng",
+    "DidEMSResponse",
+    "NamesOfEMSUnit",
+    "Unit",
+    "WhatTheyDid",
+    "LocationBusinessBlock"
+  ],
+  "column_info": [
+    {
+      "name": "DefendantId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "LeaveBusinessServedAlcohol",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "NameOfBusiness",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 511
+    },
+    {
+      "name": "WhoObservedDrinking",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 511
+    },
+    {
+      "name": "Under21AlcoholConsumeLocation",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 1000
+    },
+    {
+      "name": "StateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CountyId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Lat",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Lng",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "DidEMSResponse",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "NamesOfEMSUnit",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 150
+    },
+    {
+      "name": "Unit",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 150
+    },
+    {
+      "name": "WhatTheyDid",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2000
+    },
+    {
+      "name": "LocationBusinessBlock",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    }
+  ],
+  "row_count": 122,
+  "has_data": true,
+  "column_count": 14
+}

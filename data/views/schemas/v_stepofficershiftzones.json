@@ -1,0 +1,32 @@
+{
+  "type": "simple",
+  "description": "Secure access to stepofficershiftzones data",
+  "columns": [
+    "StepOfficerShiftZoneId",
+    "OfficerStepShiftId",
+    "StepZoneId"
+  ],
+  "column_info": [
+    {
+      "name": "StepOfficerShiftZoneId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OfficerStepShiftId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "StepZoneId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 32,
+  "has_data": true,
+  "column_count": 3
+}

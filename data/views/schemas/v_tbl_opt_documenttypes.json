@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt documenttypes data",
+  "columns": [
+    "DocumentTypeId",
+    "DocumentTypeName",
+    "Active",
+    "Created"
+  ],
+  "column_info": [
+    {
+      "name": "DocumentTypeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DocumentTypeName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": -1
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Created",
+      "type": "datetime2",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 9,
+  "has_data": true,
+  "column_count": 4
+}

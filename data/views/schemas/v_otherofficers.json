@@ -1,0 +1,53 @@
+{
+  "type": "simple",
+  "description": "Secure access to otherofficers data",
+  "columns": [
+    "OtherOfficerId",
+    "CaseId",
+    "OfficerName",
+    "Department",
+    "OtherOfficerParticipation",
+    "Supplement"
+  ],
+  "column_info": [
+    {
+      "name": "OtherOfficerId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "CaseId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "OfficerName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Department",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "OtherOfficerParticipation",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 2000
+    },
+    {
+      "name": "Supplement",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 53,
+  "has_data": true,
+  "column_count": 6
+}

@@ -1,0 +1,102 @@
+{
+  "type": "simple",
+  "description": "Secure access to casesearchwarrantactivity data",
+  "columns": [
+    "SearchWarrantActivityId",
+    "SearchWarrantFileIdFk",
+    "SearchWarrantIdFk",
+    "Activity",
+    "ClientIp",
+    "OtherInfo",
+    "ContinentCode",
+    "CountryCode",
+    "RegionCode",
+    "Latitude",
+    "Longitude",
+    "DtCreated",
+    "OldCaseSearchWarrantActivityId"
+  ],
+  "column_info": [
+    {
+      "name": "SearchWarrantActivityId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SearchWarrantFileIdFk",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "SearchWarrantIdFk",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Activity",
+      "type": "varchar",
+      "nullable": false,
+      "max_length": 50
+    },
+    {
+      "name": "ClientIp",
+      "type": "varchar",
+      "nullable": false,
+      "max_length": 50
+    },
+    {
+      "name": "OtherInfo",
+      "type": "varchar",
+      "nullable": false,
+      "max_length": -1
+    },
+    {
+      "name": "ContinentCode",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "CountryCode",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "RegionCode",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "Latitude",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "Longitude",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "DtCreated",
+      "type": "datetime",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldCaseSearchWarrantActivityId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 0,
+  "has_data": false,
+  "column_count": 13
+}

@@ -1,0 +1,53 @@
+{
+  "type": "relationship",
+  "description": "Joined view providing defendantoccupationaddress with tbl opt states with related data",
+  "columns": [
+    "DefendantId",
+    "StateId",
+    "TBL_OPT_States_StateId",
+    "TBL_OPT_States_StateName",
+    "TBL_OPT_States_Abbreviation",
+    "TBL_OPT_States_Active"
+  ],
+  "column_info": [
+    {
+      "name": "DefendantId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "StateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TBL_OPT_States_StateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "TBL_OPT_States_StateName",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 100
+    },
+    {
+      "name": "TBL_OPT_States_Abbreviation",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 5
+    },
+    {
+      "name": "TBL_OPT_States_Active",
+      "type": "bit",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 0,
+  "has_data": false,
+  "column_count": 6
+}

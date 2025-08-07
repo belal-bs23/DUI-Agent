@@ -1,0 +1,18 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt ethnicity data",
+  "columns": [
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 6,
+  "has_data": true,
+  "column_count": 1
+}

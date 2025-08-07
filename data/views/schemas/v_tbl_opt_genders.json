@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt genders data",
+  "columns": [
+    "GenderId",
+    "GenderAbbreviation",
+    "NcicCode",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "GenderId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "GenderAbbreviation",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 2
+    },
+    {
+      "name": "NcicCode",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 10
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 4,
+  "has_data": true,
+  "column_count": 4
+}

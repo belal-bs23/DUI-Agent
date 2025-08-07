@@ -1,0 +1,60 @@
+{
+  "type": "simple",
+  "description": "Secure access to stepzones data",
+  "columns": [
+    "StepZoneId",
+    "DepartmentId",
+    "LocationId",
+    "ZoneDesc",
+    "StepGrantTypeId",
+    "OldStepZoneId",
+    "CreatedBy"
+  ],
+  "column_info": [
+    {
+      "name": "StepZoneId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "DepartmentId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "LocationId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "ZoneDesc",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 300
+    },
+    {
+      "name": "StepGrantTypeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "OldStepZoneId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CreatedBy",
+      "type": "varchar",
+      "nullable": true,
+      "max_length": 50
+    }
+  ],
+  "row_count": 25,
+  "has_data": true,
+  "column_count": 7
+}

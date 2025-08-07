@@ -1,0 +1,39 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt states data",
+  "columns": [
+    "StateId",
+    "StateName",
+    "Abbreviation",
+    "Active"
+  ],
+  "column_info": [
+    {
+      "name": "StateId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "StateName",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 100
+    },
+    {
+      "name": "Abbreviation",
+      "type": "nvarchar",
+      "nullable": false,
+      "max_length": 5
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    }
+  ],
+  "row_count": 77,
+  "has_data": true,
+  "column_count": 4
+}

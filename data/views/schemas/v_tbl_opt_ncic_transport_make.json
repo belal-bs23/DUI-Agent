@@ -1,0 +1,53 @@
+{
+  "type": "simple",
+  "description": "Secure access to tbl opt ncic transport make data",
+  "columns": [
+    "NcicTransportMakeId",
+    "TransportTypeId",
+    "NcicCode",
+    "Comments",
+    "Active",
+    "ModeId"
+  ],
+  "column_info": [
+    {
+      "name": "NcicTransportMakeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "TransportTypeId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "NcicCode",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 15
+    },
+    {
+      "name": "Comments",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 255
+    },
+    {
+      "name": "Active",
+      "type": "bit",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "ModeId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    }
+  ],
+  "row_count": 17598,
+  "has_data": true,
+  "column_count": 6
+}

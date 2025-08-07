@@ -1,0 +1,60 @@
+{
+  "type": "simple",
+  "description": "Secure access to vehicle watercraft owner data",
+  "columns": [
+    "VehicleWatercraftOwnerId",
+    "Name",
+    "VehicleId",
+    "StateId",
+    "CountyId",
+    "Lat",
+    "Lng"
+  ],
+  "column_info": [
+    {
+      "name": "VehicleWatercraftOwnerId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "Name",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "VehicleId",
+      "type": "int",
+      "nullable": false,
+      "max_length": null
+    },
+    {
+      "name": "StateId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "CountyId",
+      "type": "int",
+      "nullable": true,
+      "max_length": null
+    },
+    {
+      "name": "Lat",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    },
+    {
+      "name": "Lng",
+      "type": "nvarchar",
+      "nullable": true,
+      "max_length": 50
+    }
+  ],
+  "row_count": 30,
+  "has_data": true,
+  "column_count": 7
+}
