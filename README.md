@@ -96,7 +96,17 @@ GOOGLE_API_KEY=your_google_api_key
 python setup.py test
 ```
 
-### 4. Run Multi-Agent System
+### 4. Run the System
+
+#### Option A: Web Interface (Recommended)
+```bash
+# Start the web interface
+python web_interface.py
+
+# Open your browser to: http://localhost:8000
+```
+
+#### Option B: Command Line Interface
 ```bash
 # Interactive interface (new multi-agent system)
 python dui_interface_multi_agent.py
