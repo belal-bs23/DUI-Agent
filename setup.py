@@ -25,14 +25,14 @@ def check_python_version():
 def check_dependencies():
     """Check if required dependencies are installed."""
     required_packages = [
-        'langchain', 'langchain-core', 'langchain-openai', 'langgraph',
-        'openai', 'pydantic', 'pyodbc', 'python-dotenv'
+        'langchain', 'langchain_core', 'langchain_openai', 'langgraph',
+        'openai', 'pydantic', 'pyodbc', 'dotenv'
     ]
     
     missing_packages = []
     for package in required_packages:
         try:
-            __import__(package.replace('-', '_'))
+            __import__(package)
         except ImportError:
             missing_packages.append(package)
     
@@ -232,10 +232,13 @@ def test_ai_connection():
     
     if google_key:
         try:
-            import google.generativeai as genai
-            genai.configure(api_key=google_key)
-            model = genai.GenerativeModel('gemini-pro')
-            response = model.generate_content("Hello")
+            from langchain_google_genai import ChatGoogleGenerativeAI
+            model = ChatGoogleGenerativeAI(
+                model="gemini-pro",
+                google_api_key=google_key,
+                temperature=0.1
+            )
+            response = model.invoke("Hello")
             print("✅ Google AI connection successful")
             return True
         except Exception as e:
