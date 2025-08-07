@@ -72,7 +72,21 @@ def load_comprehensive_view_schema() -> Dict:
         raise FileNotFoundError(f"Comprehensive view schema not found: {schema_file}")
     
     with open(schema_file, 'r', encoding='utf-8') as f:
-        return json.load(f)
+        schema_data = json.load(f)
+    
+    # Extract views from the correct structure
+    schema = schema_data.get('views', {})
+    
+    # Filter out missing views that failed to deploy
+    missing_views = ["v_case_summary", "v_evidence_summary", "v_officer_performance", "v_defendant_summary"]
+    filtered_schema = {}
+    
+    for view_name, view_data in schema.items():
+        if view_name not in missing_views:
+            filtered_schema[view_name] = view_data
+    
+    logger.info(f"✅ Loaded {len(filtered_schema)} working views (filtered out {len(missing_views)} missing views)")
+    return filtered_schema
 
 def load_database_analysis() -> Dict:
     """Load the database analysis data."""
@@ -122,17 +136,24 @@ def analyze_query(state: AgentState) -> AgentState:
     query_lower = user_query.lower()
     selected_views = []
     
-    # Map keywords to view categories
+    # Map keywords to view categories (using only working views)
     view_mapping = {
-        "case": ["v_case_summary", "v_caseheaders"],
-        "defendant": ["v_defendant_summary", "v_defendants"],
-        "evidence": ["v_evidence_summary", "v_physicalevidence"],
-        "officer": ["v_officer_performance", "v_officers"],
+        "case": ["v_caseheaders", "v_caseoffenses_with_caseheaders"],
+        "defendant": ["v_defendants"],
+        "evidence": ["v_physicalevidence"],
+        "officer": ["v_otherofficers_with_caseheaders"],
         "blood": ["v_specimenreport_with_caseheaders"],
         "alcohol": ["v_specimenreport_with_caseheaders"],
         "bac": ["v_specimenreport_with_caseheaders"],
-        "offense": ["v_caseoffenses_with_caseheaders"],
-        "court": ["v_court_dates", "v_court_proceedings"]
+        "offense": ["v_caseoffenses_with_caseheaders", "v_tbl_opt_offense"],
+        "court": ["v_caseheaders"],
+        "field": ["v_fieldsobrietytests"],
+        "sobriety": ["v_fieldsobrietytests"],
+        "test": ["v_fieldsobrietytests", "v_specimenreport_with_caseheaders"],
+        "time": ["v_caseoffenses_with_caseheaders"],
+        "date": ["v_caseoffenses_with_caseheaders"],
+        "month": ["v_caseoffenses_with_caseheaders"],
+        "last": ["v_caseoffenses_with_caseheaders"]
     }
     
     for keyword, views in view_mapping.items():
@@ -143,7 +164,7 @@ def analyze_query(state: AgentState) -> AgentState:
     selected_views = list(set(selected_views))[:3]
     
     if not selected_views:
-        selected_views = ["v_case_summary"]  # Default fallback
+        selected_views = ["v_caseheaders"]  # Default fallback using working view
     
     state["selected_views"] = selected_views
     state["messages"].append(AIMessage(content=f"Selected views: {', '.join(selected_views)}"))
@@ -202,31 +223,12 @@ def generate_sql(state: AgentState) -> AgentState:
         
         # Handle specific error types
         if "429" in error_msg or "quota" in error_msg.lower() or "rate limit" in error_msg.lower():
-            # Rate limit or quota exceeded - fallback to mock model
-            logger.warning(f"⚠️ Rate limit/quota exceeded with {model_type}, falling back to mock model")
-            state["messages"].append(AIMessage(content=f"Rate limit hit with {model_type}, using mock model as fallback"))
-            
-            # Use mock model as fallback
-            mock_llm = create_mock_model()
-            mock_response = mock_llm.invoke(prompt.format_messages(**context))
-            
-            try:
-                result = json.loads(mock_response.content)
-                state["sql_query"] = result.get("sql_query", "")
-                state["explanation"] = result.get("explanation", "") + " (Mock fallback due to rate limits)"
-                state["security_note"] = result.get("security_note", "")
-                state["model_used"] = f"{model_type} (fallback to mock)"
-                state["success"] = True
-                state["error"] = ""
-            except json.JSONDecodeError:
-                state["sql_query"] = mock_response.content
-                state["explanation"] = "Generated using mock model fallback due to rate limits"
-                state["security_note"] = "Mock response - no actual data access"
-                state["model_used"] = f"{model_type} (fallback to mock)"
-                state["success"] = True
-                state["error"] = ""
-            
-            logger.info(f"✅ SQL generation successful using mock fallback")
+            # Rate limit or quota exceeded - inform user
+            logger.warning(f"⚠️ Rate limit/quota exceeded with {model_type}")
+            state["success"] = False
+            state["error"] = f"Rate limit exceeded with {model_type}. Please try again later or switch to a different model in your .env file."
+            state["messages"].append(AIMessage(content=f"Rate limit error: {error_msg}"))
+            logger.error(f"❌ Rate limit exceeded: {error_msg}")
             
         elif "api key" in error_msg.lower() or "invalid" in error_msg.lower():
             # API key issues
@@ -255,13 +257,23 @@ def validate_query(state: AgentState) -> AgentState:
     validation_checks = [
         ("SELECT", "Query must start with SELECT"),
         ("FROM", "Query must include FROM clause"),
-        ("DUI.", "Query should use DUI schema"),
     ]
     
     validation_errors = []
     for check, message in validation_checks:
         if check not in sql_query.upper():
             validation_errors.append(message)
+    
+    # Check for DUI schema usage (warn but don't fail)
+    if "DUI." not in sql_query.upper():
+        logger.warning("⚠️ Query doesn't use DUI schema prefix - this may cause issues")
+        # Try to fix the query by adding DUI schema prefix
+        if not validation_errors:  # Only fix if other validations pass
+            fixed_query = sql_query.replace("FROM v_", "FROM DUI.v_")
+            fixed_query = fixed_query.replace("JOIN v_", "JOIN DUI.v_")
+            if fixed_query != sql_query:
+                state["sql_query"] = fixed_query
+                logger.info("✅ Auto-fixed DUI schema prefix")
     
     if validation_errors:
         state["error"] = f"Validation errors: {'; '.join(validation_errors)}"
@@ -370,18 +382,38 @@ Database Analysis:
 Selected Views for this query:
 {selected_views}
 
-Instructions:
-1. Use the selected views for the query
-2. Ensure the SQL is valid for SQL Server
-3. Include proper WHERE clauses and JOINs as needed
-4. Consider security - avoid accessing sensitive data directly
-5. Provide clear explanations for your choices
+CRITICAL INSTRUCTIONS:
+1. ALWAYS use the DUI schema prefix: DUI.view_name (e.g., DUI.v_case_summary)
+2. ONLY use views that exist in the available views list above
+3. Ensure the SQL is valid for SQL Server
+4. Include proper WHERE clauses and JOINs as needed
+5. Consider security - avoid accessing sensitive data directly
+6. Provide clear explanations for your choices
+7. Use proper table aliases and column references
+8. Make sure all JOIN conditions use existing columns from the views
+9. Use EXACT column names as shown in the view schema (no prefixes like "CaseOffenses_")
+
+IMPORTANT: 
+- All views must be prefixed with "DUI." in your SQL query
+- Only use views that are listed in the available views
+- Check that all column references exist in the specified views
+- Use proper JOIN syntax with correct column names
+- Use the exact column names from the view schema (e.g., "CaseId" not "CaseOffenses_CaseId")
+- WARNING: DateEntered column does NOT exist in any view - use TimeOfOff, TimeOfArrest, TimeOfBooking, or TimeOfEventEnd instead
+- For date filtering, use the time columns available in the selected views
+- NOTE: v_caseoffenses_with_caseheaders already includes case header data - no need to join with v_caseheaders again
+- Use the exact column names from the view schema without prefixes
+- IMPORTANT: For BAC results, use LabBACResult column (not Result1) in v_specimenreport_with_caseheaders
+- IMPORTANT: For field sobriety tests, use FSTGiven, DefendantRefused, PhysicalInjuries, DefMoreThan65 columns (not HGNTestResult, WalkTurnTestResult, OneLegStandTestResult)
+- CRITICAL: Do NOT use DISTINCT on text columns (like ProbableCause) - this will cause SQL errors
+- CRITICAL: Use exact column names from the schema - for case headers use CaseHeaders_UniqueId, CaseHeaders_StatusId, etc.
+- CRITICAL: Only use views that exist in the available views list - do not reference non-existent views
 
 User Query: {user_query}
 Context: {context}
 
 Generate a JSON response with:
-- sql_query: The generated SQL query
+- sql_query: The generated SQL query (must use DUI schema prefix)
 - explanation: Why you chose this approach
 - view_used: Which view(s) you used
 - security_note: Any security considerations"""),
