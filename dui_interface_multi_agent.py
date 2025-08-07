@@ -79,12 +79,22 @@ def print_result(result):
         print(f"  • Warnings: {len(validation.get('warnings', []))}")
         print(f"  • Summary: {validation.get('summary', 'N/A')}")
     
-    # Final SQL
+    # Final SQL - Clean and display properly
     final_sql = result.get('final_sql', '')
     if final_sql:
+        # Try to extract SQL from JSON if it's wrapped
+        try:
+            import json
+            if final_sql.strip().startswith('{') and final_sql.strip().endswith('}'):
+                sql_data = json.loads(final_sql)
+                if isinstance(sql_data, dict) and 'sql_query' in sql_data:
+                    final_sql = sql_data['sql_query']
+        except (json.JSONDecodeError, KeyError):
+            pass  # Use as-is if not JSON
+        
         print(f"\n🔧 Generated SQL:")
         print(f"{'─'*60}")
-        print(final_sql)
+        print(final_sql.strip())
         print(f"{'─'*60}")
     
     # Recommendations

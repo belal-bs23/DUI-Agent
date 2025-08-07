@@ -287,16 +287,17 @@ class SQLGeneratorAgent:
                 SELECT 
                     ch.CaseId,
                     ch.CaseNumber,
-                    ch.CaseDate,
-                    d.FirstName + ' ' + d.LastName as DefendantName
+                    ch.TimeOfOff,
+                    d.FirstName + ' ' + d.LastName as DefendantName,
+                    ch.StatusId
                 FROM DUI.v_caseheaders ch
-                LEFT JOIN DUI.v_defendants d ON ch.CaseId = d.CaseId
-                WHERE ch.CaseDate >= DATEADD(day, -30, GETDATE())
-                ORDER BY ch.CaseDate DESC
+                LEFT JOIN DUI.v_defendants_with_caseheaders d ON ch.CaseId = d.CaseId
+                WHERE ch.TimeOfOff >= DATEADD(day, -30, GETDATE())
+                ORDER BY ch.TimeOfOff DESC
                 """
                 
                 mock_response = {
-                    "sql_query": mock_sql,
+                    "sql_query": mock_sql.strip(),
                     "explanation": "Generated using mock model for testing",
                     "view_used": "v_caseheaders, v_defendants",
                     "security_note": "Mock response - no actual data access"
